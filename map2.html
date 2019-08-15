@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <div id="map" style="width:1280px;height:432px;"></div>
+    <script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2c988a82ffa7390195f9e63aed766d22"
+    ></script>
+    <script>
+      var placeName = "코엑스 그랜드볼룸 !";
+      // 코엑스 그랜드볼룸 위,경도
+      var position = { lat: 37.513, lng: 127.0586 };
+      // 마커가 표시될 위치입니다
+      var markerPosition = new kakao.maps.LatLng(position.lat, position.lng);
+
+      var iwPosition = new kakao.maps.LatLng(37.5132, position.lng);
+
+      // 맵 생성
+      var container = document.getElementById("map");
+      var options = {
+        center: markerPosition,
+        level: 3
+      };
+      var map = new kakao.maps.Map(container, options);
+
+      // 마커 생성
+      var marker = new kakao.maps.Marker({
+        position: markerPosition
+      });
+
+      // 마커가 지도 위에 표시되도록 설정
+      marker.setMap(map);
+
+      var iwContent = '<div style="padding:5px;">' + placeName + "</div>";
+      // 인포윈도우를 생성하고 지도에 표시합니다
+      var infowindow = new kakao.maps.InfoWindow({
+        map: map, // 인포윈도우가 표시될 지도
+        position: markerPosition,
+        content: iwContent
+      });
+      // 마커 위에 인포윈도우를 표시합니다. 두번째 파라미터인 marker를 넣어주지 않으면 지도 위에 표시됩니다
+      infowindow.open(map, marker);
+    </script>
+  </body>
+</html>
