@@ -17,7 +17,7 @@
 
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <link rel="canonical" href="https://agilekorea.kr/index.html">
-    <link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
 
 
@@ -129,9 +129,15 @@
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
     <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
 
+
     <style amp-custom>
         ::-webkit-scrollbar {
             display: none;
+        }
+
+        @font-face {
+          font-family: "Spoqa Han Sans";
+          src: url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
         }
 
         body {
@@ -889,6 +895,8 @@
              side="right">
     <div class="sidebar__header">
         <amp-img class="sidebar__header__logo" 
+                 width="77px"
+                 height="49px"
                  src="img/img-logo-wh.svg"></amp-img>
         <div></div>
         <div class="sidebar__header__close">
@@ -914,20 +922,17 @@
 
 <div class="slogan__section">
     <amp-img class="slogan__section__background"
-
         src="img/img-main-bg-key-01.png"
         srcset="img/img-main-bg-key-01@2x.png 2x,
             img/img-main-bg-key-01@3x.png 3x"
-
+        width="330px"
+        height="470px"
         layout="fixed">
     </amp-img>
     <amp-img class="slogan__section__bottom__background"
-            
-            src="images/main-slogan-bottom-bg.png"
             src="img/img-main-bg-key-02.png"
             srcset="img/img-main-bg-key-02@2x.png 2x,
                     img/img-main-bg-key-02@3x.png 3x"
-
              width="416"
              height="343"
              layout="fixed">
@@ -948,7 +953,7 @@
              data-parallax-factor="1.2"
              width="714"
              height="200"
-             layout="fixed">
+             layout="responsive">
     </amp-img>
     <div class="slogan__section__divider"></div>
     <div class="slogan__section__date">2019. 10. 18</div>
@@ -960,8 +965,7 @@
 
 <!-- D-day -->
 <div class="dday__section">
-        <amp-date-countdown class="dday__section__item" end-date="2019-10-18T09:00:00+09:00" when-ended="continue"
-        layout="fixed-height" height="62" locale="ko">
+    <amp-date-countdown class="dday__section__item" end-date="2019-10-18T09:00:00+09:00" when-ended="continue" layout="fixed-height" height="62" locale="ko">
         <template type="amp-mustache">
             D - {{d}} {{days}} {{hh}} : {{mm}} : {{ss}}
         </template>
