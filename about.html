@@ -1,341 +1,731 @@
-<!doctype html>
+<!DOCTYPE html>
 <html ⚡>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-  <link rel="canonical" href="https://agilekoreaconference.github.io">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR">
-  <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
+  <head>
+    <meta charset="utf-8" />
 
-  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-  <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <meta property="author" content="Agile Korea Conference" />
+    <meta
+      property="description"
+      content="Agile, Culture, Human - Be The Change. 2019.10.18 코엑스 그랜드볼룸"
+    />
+    <meta
+      property="keywords"
+      content="Agile Korea, Agile Conference, Agile Korea Conference, 애자일 코리아, 애자일 코리아 컨퍼런스, 애자일 2019, 애코2019"
+    />
+    <meta property="og:url" content="https://agilekorea.kr" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Agile Korea Conference 2019" />
+    <meta
+      property="og:description"
+      content="Agile, Culture, Human - Be The Change. 2019.10.18 09 코엑스 그랜드볼룸"
+    />
+    <meta property="og:image" content="https://agilekorea.kr/img/img-og.png" />
 
-  <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
-  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <title>Agile Korea Conference 2019</title>
 
-  <style amp-custom>
-    ::-webkit-scrollbar {
-      display: none;
-    }
-    body {
-      font-family: "Noto Sans KR";
-    }
-    header {
-      display: grid;
-      grid-template-columns: 55px 1fr 58px;
-      width: auto;
-      height: 58px;
-      background: transparent;
-      z-index: 2;
-      position: relative;
-    }
-    .header {
-      position: relative;
-    }
-    .header__logo {
-      margin: 14px 0px 9px 16px;
-    }
-    .header__hamburger {
-      display: flex;
-      width: 58px;
-      height: 58px;
-      background-color: #ffffff;
-      justify-content: center;
-      align-items: center;
-    }
-    #sidebar {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background: white;
-      width: 100vw;
-      height: 360px;
-      max-width: 100%;
-      text-align: center;
-      font-size: 20px;
-      color: #232b31;
-    }
-    #sidebar > ul {
-      list-style-type: none;
-      padding: 0px;
-      margin-bottom: 20px;
-    }
-    #sidebar > ul > li {
-      padding: 10px 0px;
-    }
-    #sidebar > ul > li > a {
-      text-decoration: none;
-      color: #232b31;
-    }
-    .sidebar__header {
-      display: grid;
-      grid-template-columns: 55px 1fr 58px;
-      width: 100%;
-      height: 58px;
-    }
-    .sidebar__header__logo {
-      margin: 14px 0px 9px 16px;
-    }
-    .sidebar__header__close {
-      display: flex;
-      width: 58px;
-      height: 58px;
-      background-color: #ffffff;
-      justify-content: center;
-      align-items: center;
-    }
-    .slogan__section {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 100vw;
-      height: 180px;
-      margin-top: -63px;
-    }
-    .about__title__background {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 175px;
-    }
+    <meta
+      name="viewport"
+      content="width=device-width,minimum-scale=1,initial-scale=1"
+    />
+    <link rel="canonical" href="https://agilekorea.kr/index.html" />
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
 
-    .about__title__text {
-      position: absolute;
-    }
-    section {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: 0 10px;
-      border-top: 1px solid #171b20;
-    }
-    .section__bullet {
-      margin-top: 20px;
-    }
-    .section__title {
-      font-size: 24px;
-      font-weight: 900;
-      color: #232b31;
-      margin-top: 6px;
-      margin-bottom: 30px;
-    }
-    .article {
-      display: flex;
-      flex-direction: column;
-      width: calc(100vw - 40px);
-      margin-bottom: 30px;
-      word-break: keep-all;
-    }
-    .link__section {
-      display: flex;
-      justify-content: center;
-      margin-top: 50px;
-      margin-bottom: 90px;
-    }
-    .link__section > a {
-      width: 240px;
-      height: 22px;
-      padding: 20px 0px;
-      background-image: linear-gradient(to right, #1accbf, #008cfd);
-      font-size: 18px;
-      color: white;
-      text-decoration: none;
-      text-align: center;
-    }
-    footer {
-      height: 160px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .footer__link {
-      display: flex;
-      justify-content: center;
-    }
-    .footer__link__mailto {
-      margin-right: 20px;
-    }
-    .footer__site__link {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      width: 206px;
-      opacity: 0.5;
-      font-size: 13px;
-      letter-spacing: -0.3px;
-      color: #232b31;
-    }
-    .footer__site__link a {
-      text-decoration: none;
-      color: #232b31;
-    }
-    .footer__copyright {
-      display: flex;
-      justify-content: center;
-      margin-top: 18px;
-    }
-  </style>
-</head>
-<body>
-  <amp-analytics type="googleanalytics">
-    <script type="application/json">
+    <style amp-boilerplate>
+      body {
+        -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+        -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+        -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+        animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      }
+
+      @-webkit-keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+        to {
+          visibility: visible;
+        }
+      }
+
+      @-moz-keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+        to {
+          visibility: visible;
+        }
+      }
+
+      @-ms-keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+        to {
+          visibility: visible;
+        }
+      }
+
+      @-o-keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+        to {
+          visibility: visible;
+        }
+      }
+
+      @keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+        to {
+          visibility: visible;
+        }
+      }
+    </style>
+    <noscript>
+      <style amp-boilerplate>
+        body {
+          -webkit-animation: none;
+          -moz-animation: none;
+          -ms-animation: none;
+          animation: none;
+        }
+      </style>
+    </noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script type="application/ld+json">
       {
-        "vars": {
-          "account": "UA-90999360-2"
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "Agile Korea Conference 2019",
+        "startDate": "2019-10-18T09:00",
+        "endDate": "2019-10-18T19:00",
+        "description": "Agile, Culture, Human - Be The Change. 2019.10.18 09 코엑스 그랜드볼룸",
+        "performer": {
+          "@type": "PerformingGroup",
+          "name": "AgileKoreaConference"
         },
-        "triggers": {
-          "trackPageview": {
-            "on": "visible",
-            "request": "pageview"
+        "location": {
+          "@type": "Place",
+          "name": "코엑스 그랜드볼룸",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "강남구 삼성1동 영동대로513",
+            "addressLocality": "서울",
+            "postalCode": "05510",
+            "addressCountry": "KR"
           }
         }
       }
     </script>
-  </amp-analytics>
-  <!-- navigator -->
-  <div class="header">
+    <script
+      async
+      custom-element="amp-sidebar"
+      src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"
+    ></script>
+    <script
+      async
+      custom-element="amp-date-countdown"
+      src="https://cdn.ampproject.org/v0/amp-date-countdown-0.1.js"
+    ></script>
+    <script
+      async
+      custom-template="amp-mustache"
+      src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"
+    ></script>
+    <script
+      async
+      custom-element="amp-list"
+      src="https://cdn.ampproject.org/v0/amp-list-0.1.js"
+    ></script>
+    <script
+      async
+      custom-element="amp-bind"
+      src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"
+    ></script>
+    <script
+      async
+      custom-element="amp-lightbox"
+      src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"
+    ></script>
+    <script
+      async
+      custom-element="amp-animation"
+      src="https://cdn.ampproject.org/v0/amp-animation-0.1.js"
+    ></script>
+    <script
+      async
+      custom-element="amp-position-observer"
+      src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js"
+    ></script>
+    <script
+      async
+      custom-element="amp-fx-collection"
+      src="https://cdn.ampproject.org/v0/amp-fx-collection-0.1.js"
+    ></script>
+    <script
+      async
+      custom-element="amp-fit-text"
+      src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"
+    ></script>
+    <script
+      async
+      custom-element="amp-analytics"
+      src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"
+    ></script>
+    <script
+      async
+      custom-element="amp-iframe"
+      src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+    ></script>
+
+    <style amp-custom>
+      ::-webkit-scrollbar {
+        display: none;
+      }
+
+      @font-face {
+        font-family: "Spoqa Han Sans";
+        src: url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
+      }
+
+      :root {
+        --dark: #232b31;
+        --sapphire: #2e2b9b;
+        --azure: #00b0e8;
+      }
+
+      body {
+        font-family: "Spoqa Han Sans", sans-serif;
+      }
+
+      header {
+        display: grid;
+        grid-template-columns: 55px 1fr 58px;
+        width: auto;
+        height: 58px;
+        background: transparent;
+        z-index: 2;
+        position: relative;
+      }
+
+      .header__logo {
+        margin-top: 14px;
+        margin-left: 16px;
+        width: 55px;
+        height: 35px;
+      }
+
+      @media (min-width: 1024px) {
+        .header__logo {
+          margin-top: 19px;
+          margin-left: 40px;
+          width: 77px;
+          height: 49px;
+        }
+      }
+
+      .header__hamburger {
+        display: flex;
+        width: 58px;
+        height: 58px;
+        background-color: #ffffff;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #sidebar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: white;
+        width: 100vw;
+        height: 360px;
+        max-width: 100%;
+        text-align: center;
+        font-size: 20px;
+        color: var(--dark);
+      }
+
+      #sidebar > ul {
+        list-style-type: none;
+        padding: 0px;
+        margin-bottom: 20px;
+      }
+
+      #sidebar > ul > li {
+        padding: 10px 0px;
+      }
+
+      #sidebar > ul > li > a {
+        text-decoration: none;
+        color: var(--dark);
+      }
+
+      .sidebar__header {
+        display: grid;
+        grid-template-columns: 55px 1fr 58px;
+        width: 100%;
+        height: 58px;
+      }
+
+      .sidebar__header__logo {
+        width: 55px;
+        height: 35px;
+        object-fit: contain;
+      }
+      @media (min-width: 1024px) {
+        .sidebar__header__logo {
+          width: 77px;
+          height: 49px;
+          object-fit: contain;
+        }
+      }
+
+      .sidebar__header__close {
+        display: flex;
+        width: 58px;
+        height: 58px;
+        background-color: #ffffff;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .scrollToTop {
+        width: 48px;
+        height: 48px;
+        z-index: 1;
+        bottom: 82px;
+        right: 16px;
+        position: fixed;
+        opacity: 0;
+        visibility: hidden;
+      }
+
+      #marker {
+        position: absolute;
+        top: 100px;
+        width: 0px;
+        height: 0px;
+      }
+
+      .slogan__section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 176px;
+        margin-top: -58px;
+        position: relative;
+        background-color: var(--sapphire);
+      }
+
+      .slogan__section__background {
+        width: 156px;
+        height: 176px;
+        position: absolute;
+        top: 58;
+        left: 0;
+      }
+
+      .slogan__section__right__background {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 48px;
+        width: 88px;
+        height: 128px;
+      }
+
+      .about__title__text {
+        position: absolute;
+      }
+
+      @media (min-width: 1024px) {
+        .slogan__section {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100vw;
+          height: 176px;
+          position: relative;
+          background-color: var(--sapphire);
+        }
+
+        .slogan__section__background {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 156px;
+          height: 176px;
+        }
+
+        .slogan__section__right__background {
+          display: block;
+          position: absolute;
+          right: 0;
+          top: 48px;
+          width: 88px;
+          height: 128px;
+        }
+
+        .about__title__text {
+          position: absolute;
+        }
+      }
+
+      section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 10px;
+      }
+
+      .section__bullet {
+        margin-top: 12px;
+      }
+
+      .section__title {
+        /* font-family: SpoqaHanSans; */
+        font-size: 32px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: -0.3px;
+        text-align: center;
+        color: var(--dark);
+        margin-top: 10px;
+      }
+
+      .article {
+        /* display: flex;
+        flex-direction: column; */
+        width: calc(100vw - 40px);
+        margin-top: 32px;
+        margin-bottom: 37px;
+        word-break: keep-all;
+
+        font-size: 18px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.78;
+        letter-spacing: -0.3px;
+        color: #171b20;
+      }
+
+      .line-copy {
+        width: 340px;
+        height: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        opacity: 0.8;
+        background-color: #171b20;
+      }
+
+      @media (min-width: 1024px) {
+        .article {
+          width: 816px;
+          margin-top: 28px;
+          margin-bottom: 37px;
+          margin-left: auto;
+          margin-right: auto;
+          word-break: keep-all;
+
+          font-size: 18px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.78;
+          letter-spacing: -0.3px;
+          color: #171b20;
+        }
+
+        .line-copy {
+          width: 816px;
+          height: 1px;
+          margin: auto;
+          opacity: 0.8;
+          background-color: #171b20;
+        }
+      }
+
+      footer {
+        height: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #f8f8fa;
+      }
+
+      .footer__link {
+        display: flex;
+        justify-content: center;
+      }
+
+      .footer__link__mailto {
+        margin-right: 20px;
+      }
+
+      .footer__site__link {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 220px;
+        opacity: 0.5;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: -0.3px;
+        color: var(--dark);
+      }
+
+      .footer__site__link a {
+        text-decoration: none;
+        color: var(--dark);
+      }
+
+      .footer__copyright {
+        display: flex;
+        justify-content: center;
+        margin-top: 18px;
+        font-size: 12px;
+      }
+
+      .pascal {
+        color: #0674d8;
+      }
+
+      .magellan {
+        color: #00a6c5;
+      }
+
+      .multi {
+        color: #06ce83;
+      }
+    </style>
+  </head>
+  <body>
+    <amp-analytics type="googleanalytics">
+      <script type="application/json">
+        {
+            "vars": {
+                "account": "UA-90999360-2"
+            },
+            "triggers": {
+                "trackPageview": {
+                    "on": "visible",
+                    "request": "pageview"
+                }
+            }
+        }
+      </script>
+    </amp-analytics>
+
+    <amp-state id="selectedSpeaker">
+      <script type="application/json">
+        {
+            "name": "nobody",
+            "company": "company",
+            "img": "images/empty_profile_L.png",
+            "sImg": "images/empty_profile.png",
+            "track": "track",
+            "time": "00:00~00:00",
+            "location": "location",
+            "color": "default",
+            "title": "title",
+            "note": "note"
+        }
+      </script>
+    </amp-state>
+    <!-- scroll to here -->
+    <div id="top-page"></div>
+
+    <!-- navigator -->
     <header>
       <a href="index.html">
-        <amp-img class="header__logo"
-                 src="images/logo_mainbk.png"
-                 width="55px"
-                 height="35px"
-                 layout="fixed">
+        <amp-img
+          class="header__logo"
+          src="img/img-logo-wh.svg"
+          width="157px"
+          height="272px"
+          layout="responsive"
+        >
         </amp-img>
       </a>
       <div></div>
       <div class="header__hamburger">
-        <amp-img src="images/home_menu.svg"
-                 width="30"
-                 height="30"
-                 layout="fixed"
-                 on="tap:sidebar.toggle"
-                 role="button"
-                 tabindex="0">
+        <amp-img
+          src="images/home_menu.svg"
+          width="30"
+          height="30"
+          layout="fixed"
+          on="tap:sidebar.toggle"
+          role="button"
+          tabindex="0"
+        >
         </amp-img>
       </div>
     </header>
 
+    <!-- side bar -->
+    <amp-sidebar id="sidebar" layout="nodisplay" side="right">
+      <div class="sidebar__header">
+        <amp-img
+          class="sidebar__header__logo"
+          width="77px"
+          height="49px"
+          src="img/img-logo-wh.svg"
+        ></amp-img>
+        <div></div>
+        <div class="sidebar__header__close">
+          <amp-img
+            src="images/home_menu.svg"
+            width="30"
+            height="30"
+            layout="fixed"
+            on="tap:sidebar.close"
+            role="button"
+            tabindex="0"
+          >
+          </amp-img>
+        </div>
+      </div>
+      <ul>
+        <li><a href="about.html">ABOUT</a></li>
+        <!--<li><a href="honor.html">Hall Of Honor</a></li>-->
+        <!--<li><a href="schedule.html">스케쥴</a></li>-->
+        <!--<li><a href="faq.html">FAQ</a></li>-->
+        <!--<li><a href="https://booking.naver.com/booking/5/bizes/185789/items/2885535" target="_blank">등록하기</a></li>-->
+        <li>
+          <a
+            href="https://ko-kr.facebook.com/AgileKoreaConference/"
+            target="_blank"
+            >공식 페이스북</a
+          >
+        </li>
+      </ul>
+    </amp-sidebar>
+
     <div class="slogan__section">
-      <div class="about__title__background">
-        <amp-img src="images/schedule-left-bg.png"
-                 width="180"
-                 height="175"
-                 layout="fixed">
-        </amp-img>
-        <amp-img src="images/schedule-right-bg.png"
-                 width="180"
-                 height="175"
-                 layout="fixed">
-        </amp-img>
-      </div>
-      <amp-img class="about__title__text"
-               src="images/about_title.svg"
-               width="220"
-               height="60"
-               layout="fixed">
+      <amp-img
+        class="slogan__section__background"
+        src="img/img-detailpg-title-03.png"
+        srcset="img/img-main-bg-key-01@2x.png 2x, img/img-main-bg-key-01@3x.png 3x"
+        width="330px"
+        height="470px"
+        layout="responsive"
+      >
+      </amp-img>
+      </amp-img>
+      <amp-img
+        class="slogan__section__right__background"
+        src="img/img-main-bg-key-03.png"
+        srcset="img/img-main-bg-key-03@2x.png 2x, img/img-main-bg-key-03@3x.png 3x"
+        width="248"
+        height="176"
+        layout="responsive"
+      >
+      </amp-img>
+
+      <amp-img
+        class="about__title__text"
+        src="img/img-detailpg-title-03"
+        width="220"
+        height="60"
+        layout="responsive"
+      >
       </amp-img>
     </div>
-  </div>
-  <!-- side bar -->
-  <amp-sidebar id="sidebar"
-               layout="nodisplay"
-               side="right">
-    <div class="sidebar__header">
-      <amp-img class="sidebar__header__logo"
-               src="images/logo_mainbk.png"
-               width="55px"
-               height="35px"
-               layout="fixed">
+
+    <section>
+      <amp-img
+        class="section__bullet"
+        width="12"
+        height="12"
+        layout="fixed"
+        src="img/img-bullet-title.svg"
+      >
       </amp-img>
-      <div></div>
-      <div class="sidebar__header__close">
-        <amp-img src="images/home_menu.svg"
-                 width="30"
-                 height="30"
-                 layout="fixed"
-                 on="tap:sidebar.close"
-                 role="button"
-                 tabindex="0">
-        </amp-img>
+      <div class="section__title">AKC란?</div>
+      <div class="article">
+        Agile Korea Conference(이하 AKC)는 애자일 생태계 전체를 대상으로
+        개최되는 가장 중요한 컨퍼런스 중 하나입니다.<br />
+        전세계적으로 애자일에 대한 업계의 관심이 늘어나는 가운데, 삼성, LG, SK를
+        비롯한 많은 한국의 대기업과 중소기업 및 스타트업들 또한 애자일 방식을
+        적용하고 있습니다.<br />
+        애자일을 활용하는 개발자, 디자이너, 관리자 및 경영진, 코치들과
+        컨설턴트들과 함께, 작년과 마찬가지로 서울 잠실에 모여 그들의 전문성과
+        열정을 공유하려고 합니다.
       </div>
-    </div>
-    <ul>
-      <li><a href="about.html">ABOUT</a></li>
-      <!--<li><a href="honor.html">Hall Of Honor</a></li>-->
-      <!--<li><a href="schedule.html">스케쥴</a></li>-->
-      <!--<li><a href="faq.html">FAQ</a></li>-->
-      <!--<li><a href="https://booking.naver.com/booking/5/bizes/185789/items/2885535" target="_blank">등록하기</a></li>-->
-      <li><a href="https://ko-kr.facebook.com/AgileKoreaConference/" target="_blank">공식 페이스북</a></li>
-    </ul>
-  </amp-sidebar>
+    </section>
+    <div class="line-copy"></div>
+    <section>
+      <amp-img
+        class="section__bullet"
+        width="12"
+        height="12"
+        layout="fixed"
+        src="img/img-bullet-title.svg"
+      >
+      </amp-img>
+      <div class="section__title">AKC 2019</div>
+      <div class="article">
+        초기 SW개발자들에 한정해서 작은 스터디와 소규모 커뮤니티로 시작된
+        애자일은 이제 한국의 기업 전략/문화/실행에 있어 빼놓고 이야기하기 힘든
+        중요한 주제가 되었습니다.<br />
+        애자일코리아컨퍼런스2019에서는 Agile, Culture, Human - Be the Change
+        라는 슬로건으로 업종과 직무를 넘어서 조직과 개인이 변화와 혁신의 흐름을
+        이해하고 파악할 수 있도록 하는 프로그램들을 준비하고 있습니다.<br />
+        시대의 흐름에 맞는 새로운 변화가 필요한 모든 분들의 많은 관심
+        부탁드립니다.
+      </div>
+    </section>
 
-  <section>
-    <amp-img class="section__bullet"
-             width="12"
-             height="12"
-             layout="fixed"
-             src="images/bullet-title.svg">
-    </amp-img>
-    <div class="section__title">AKC란?</div>
-    <div class="article">
-      Agile Korea Conference(이하 AKC)는 애자일 생태계 전체를 대상으로 개최되는 가장 중요한 컨퍼런스 중 하나입니다.<br>
-      전세계적으로 애자일에 대한 업계의 관심이 늘어나는 가운데, 삼성, LG, SK를 비롯한 많은 한국의 대기업과 중소기업 및 스타트업들 또한 애자일 방식을 적용하고 있습니다.<br>
-      애자일을 활용하는 개발자, 디자이너, 관리자 및 경영진, 코치들과 컨설턴트들과 함께, 작년과 마찬가지로 서울 잠실에 모여 그들의 전문성과 열정을 공유하려고 합니다.<br>
-      지난 AKC 2017은 총 76개 업체로부터 450명의 발표자 및 참여자가 행사를 꾸며주셨고, 성황리에 AKC가 한국을 대표하는 애자일 컨퍼런스라는 것을 증명했습니다.
-    </div>
-  </section>
-
-  <section>
-    <amp-img class="section__bullet"
-             width="12"
-             height="12"
-             layout="fixed"
-             src="images/bullet-title.svg">
-    </amp-img>
-    <div class="section__title">AKC 2019</div>
-    <div class="article">
-      올해 Agile Korea Conference 2019는<br>
-      ‘Agile, Human, Culture - Be The Change’ 슬로건을 걸고 코엑스 그랜드볼룸에서 개최됩니다.<br>
-      키노트 연사인 Piergiorgio Grossi를 비롯하여 국내외 다양한 경험을 가진 연사분들이 참석자 분들을 기다리고 있습니다.<br>
-      또한 여러분에게 도움이 될 수 있는 훌륭한 컨텐츠와 네트워킹을 위한 장소를 제공하고자 합니다.<br>
-      AKC 2019 많은 참여 부탁드립니다.
-    </div>
-  </section>
-
-  <div class="link__section">
-    <a href="https://agilekoreaconference.github.io/akc2018/" target="_blank">작년행사 보기</a>
-  </div>
-
-  <footer>
-    <div class="footer__link">
-      <a href="mailto:agilekoreaconference@gmail.com" target="_blank">
-        <amp-img class="footer__link__mailto"
-                 src="images/ic-mail.svg"
-                 width="24" height="24" layout="fixed">
-        </amp-img>
-      </a>
-      <a href="https://www.facebook.com/AgileKoreaConference/" target="_blank">
-        <amp-img class="footer__link__facebook"
-                 src="images/ic-facebook.svg"
-                 width="24" height="24" layout="fixed">
-        </amp-img>
-      </a>
-    </div>
-    <div class="footer__site__link">
-      <a href="faq.html">FAQ</a>
-      <pre>  |  </pre>
-      <a href="last-akc.html">2017 AKC</a>
-      <pre>  |  </pre>
-      <a href="https://agilekoreaconference.github.io/akc2018/" target="_blank">2018 AKC</a>      
-    </div>
-    <div class="footer__copyright">© 2019 Agile Korea Alliance</div>
-  </footer>
-</body>
+    <footer>
+      <div class="footer__link">
+        <a href="mailto:agilekoreaconference@gmail.com" target="_blank">
+          <amp-img
+            class="footer__link__mailto"
+            src="images/ic-mail.svg"
+            width="24"
+            height="24"
+            layout="fixed"
+          >
+          </amp-img>
+        </a>
+        <a
+          href="https://www.facebook.com/AgileKoreaConference/"
+          target="_blank"
+        >
+          <amp-img
+            class="footer__link__facebook"
+            src="images/ic-facebook.svg"
+            width="24"
+            height="24"
+            layout="fixed"
+          >
+          </amp-img>
+        </a>
+      </div>
+      <div class="footer__site__link">
+        <a href="faq.html">FAQ</a>
+        <pre>  |  </pre>
+        <a href="last-akc.html">2017 AKC</a>
+        <pre>  |  </pre>
+        <a
+          href="https://agilekoreaconference.github.io/akc2018/"
+          target="_blank"
+          >2018 AKC</a
+        >
+      </div>
+      <div class="footer__copyright">© 2019 Agile Korea Alliance</div>
+    </footer>
+  </body>
 </html>
