@@ -168,7 +168,7 @@
         }
 
         .section__bullet {
-            margin-top: 0px;
+            margin-top: 48px;
             z-index: 5;
         }
 
@@ -547,7 +547,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin: 40px 160px 40px 160px;
+            margin: 0px 160px 0px 160px;
             max-height: 704px;
         }
 
@@ -569,7 +569,7 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                margin: 0px 160px 40px 160px;
+                margin: 0px 160px 0px 160px;
                 max-height: 704px;
             }
 
@@ -782,7 +782,6 @@
             align-items: center;
             background: white;
             border-top: 1px solid #dee2e6;
-            margin-bottom: 40px;
         }
 
         .sponsor__section > .section__title {
@@ -808,14 +807,14 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+            width: 200px;
         }
 
-        @media (max-width: 360px) {
+        @media (min-width: 1024px) {
             .sponsor__logos {
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
-                width: 200px;
             }
         }
 
@@ -869,8 +868,23 @@
             letter-spacing: normal;
             text-align: center;
             color: var(--dark);
-            margin-top: 40px;
-            margin-bottom: 40px;
+            margin-top: 0px;
+            margin-bottom: 137px;
+        }
+
+        @media (min-width: 1024px) {
+            .section_cod {
+                font-size: 18px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.78;
+                letter-spacing: normal;
+                text-align: center;
+                color: var(--dark);
+                margin-top: 0px;
+                margin-bottom: 81px;
+            }
         }
 
         .section_cod > .section__title {
