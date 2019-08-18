@@ -139,6 +139,12 @@
           src: url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
         }
 
+        :root {
+          --dark: #232b31;
+          --sapphire: #2e2b9b;
+          --azure: #00b0e8;
+        }
+
         body {
             font-family: "Spoqa Han Sans", sans-serif;
         }
@@ -156,7 +162,7 @@
         .section__title {
             font-size: 24px;
             font-weight: 900;
-            color: #232b31;
+            color: var(--dark);
             margin-top: 6px;
             margin-bottom: 20px;
             z-index: 5;
@@ -202,7 +208,7 @@
             max-width: 100%;
             text-align: center;
             font-size: 20px;
-            color: #232b31;
+            color: var(--dark);
         }
 
         #sidebar > ul {
@@ -217,7 +223,7 @@
 
         #sidebar > ul > li > a {
             text-decoration: none;
-            color: #232b31;
+            color: var(--dark);
         }
 
         .sidebar__header {
@@ -272,7 +278,7 @@
             margin-top: -58px;
             position: relative;
             
-            background-color: #2e2b9b;
+            background-color: var(--sapphire);
             /*
             background: linear-gradient(149deg, #c2f52a, #2af598 21%, #008cfd); 
             background-color: var(--sapphire);
@@ -391,7 +397,7 @@
         .dday__section__register {
             width: 128px;
             height: 100%;
-            color: #00b0e8;
+            color: var(--azure);
             background-color: #21242f;
             text-align: center;
         }
@@ -400,7 +406,7 @@
             text-decoration: none;
             font-size: 18px;
             font-weight: bold;
-            color: #00b0e8;
+            color: var(--azure);
             line-height: 62px;
         }
 
@@ -491,7 +497,7 @@
         .subtitle {
             font-size: 14px;
             font-weight: bold;
-            color: #2e2b9b;
+            color: var(--sapphire);
             margin: 0;
             line-height: normal;
             height: 20px;
@@ -501,7 +507,7 @@
             font-size: 18px;
             line-height: 1.44;
             letter-spacing: -0.3px;
-            color: #232b31;
+            color: var(--dark);
             width: 264px;
             height: 78px;
             margin : 3px 0px 6px;
@@ -510,7 +516,7 @@
         .session__list__card__note__speaker {
             opacity: 0.5;
             font-size: 14px;
-            color: #232b31;
+            color: var(--dark);
             width: 264px;
             height: 20px;
         }
@@ -569,13 +575,13 @@
             font-size: 20px;
             line-height: 1.5;
             letter-spacing: -0.3px;
-            color: #232b31;
+            color: var(--dark);
             margin-top: 4px;
         }
 
         .speaker__ligthbox__middle__name {
             font-size: 16px;
-            color: #232b31;
+            color: var(--dark);
             opacity: 0.5;
             margin-top: 6px;
         }
@@ -585,7 +591,7 @@
             flex-direction: row;
             align-items: center;
             font-size: 16px;
-            color: #232b31;
+            color: var(--dark);
             opacity: 0.8;
             margin-top: 14px;
         }
@@ -603,7 +609,7 @@
             padding-top: 20px;
             opacity: 0.8;
             font-size: 16px;
-            color: #232b31;
+            color: var(--dark);
             height: auto;
             max-height: 282px;
             white-space: pre-wrap;
@@ -627,7 +633,7 @@
             text-align: center;
             font-size: 18px;
             line-height: 1.78;
-            color: #232b31;
+            color: var(--dark);
         }
 
         .location__section__map {
@@ -670,7 +676,7 @@
             opacity: 0.5;
             font-size: 12px;
             letter-spacing: -0.3px;
-            color: #232b31;
+            color: var(--dark);
             margin-top: 24px;
         }
 
@@ -739,6 +745,14 @@
         }
 
         .section_cod {
+            font-size: 18px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.78;
+            letter-spacing: normal;
+            text-align: center;
+            color: var(--dark);
             margin-bottom: 40px;
         }
 
@@ -750,7 +764,7 @@
             line-height: normal;
             letter-spacing: -0.3px;
             text-align: center;
-            color: var(--dark);            
+            color: var(--dark);      
         }        
 
         .section__cod__sentences {
@@ -758,7 +772,7 @@
             font-size: 18px;
             line-height: 1.78;
             text-align: center;
-            color: #232b31;
+            color: var(--dark);
             margin: auto;
             word-break: keep-all
         }
@@ -767,7 +781,7 @@
             font-size: 18px;
             line-height: 1.78;
             text-align: center;
-            color: #232b31;
+            color: var(--dark);
             margin: auto;
             padding: 40px 20px 0px 20px;
             word-break: keep-all
@@ -801,12 +815,12 @@
             font-size: 13px;
             font-weight: 400;
             letter-spacing: -0.3px;
-            color: #232b31;
+            color: var(--dark);
         }
 
         .footer__site__link a {
             text-decoration: none;
-            color: #232b31;
+            color: var(--dark);
         }
 
         .footer__copyright {
@@ -1198,47 +1212,46 @@
     </amp-img>
 </div>
 -->
-<div class="photo2017__section">
+
+<div class="section_cod">
     <amp-img class="section__bullet"
-             width="12"
-             height="12"
-             layout="fixed"
-             src="img/img-bullet-title.svg"
-            >
+        width="12"
+        height="12"
+        layout="fixed"
+        src="img/img-bullet-title.svg"
+        >
     </amp-img>
-    <div class="section_cod">
-        <div class="section__title">Code of Conduct</div>
-        <div class="section__cod__sentences">Agile Korea Conference 2019는<br>
-            애자일 코리아 컨퍼런스 준비위원회 주관으로<br>
-            이루어지는 비영리 행사로서,<br>
-            애자일 문화 저변 확대를 위해 진행하는 행사입니다.<br>
-            원활한 행사 진행을 위해 참여하는 모든 분들은<br>
-            아래 성명서 내용에 동의하고 따르셔야 함을 알려드립니다.
-        </div>
-        <div class="section__cod__index">
-            <amp-img width="60"
-                     height="60"
-                     layout="fixed"
-                     src="images/ic-cod-shake.png">
-            </amp-img>
-            <br> 즐거운 컨퍼런스를 위해<br> 서로를 존중하고 적극적으로 참여합니다.
-        </div>
-        <div class="section__cod__index">
-            <amp-img width="60"
-                     height="60"
-                     layout="fixed"
-                     src="images/ic-cod-smle.png">
-            </amp-img>
-            <br> 편안한 컨퍼런스를 위해<br> 미소로 인사하고, 경청하고, 자신을 솔직하게 표현합니다.
-        </div>
-        <div class="section__cod__index">
-            <amp-img width="60"
-                     height="60"
-                     layout="fixed"
-                     src="images/ic-cod-dove.png">
-            </amp-img>
-            <br> 안전한 컨퍼런스를 위해<br> 정치, 종교, 인종, 성적지향 관련 차별적 발언과 행동은 허용되지 않습니다.
-        </div>
+    <div class="section__title">Code of Conduct</div>
+    <div class="section__cod__sentences">Agile Korea Conference 2019는<br>
+        애자일 코리아 컨퍼런스 준비위원회 주관으로<br>
+        이루어지는 비영리 행사로서,<br>
+        애자일 문화 저변 확대를 위해 진행하는 행사입니다.<br>
+        원활한 행사 진행을 위해 참여하는 모든 분들은<br>
+        아래 성명서 내용에 동의하고 따르셔야 함을 알려드립니다.
+    </div>
+    <div class="section__cod__index">
+        <amp-img width="60"
+                    height="60"
+                    layout="fixed"
+                    src="images/ic-cod-shake.png">
+        </amp-img>
+        <br> 즐거운 컨퍼런스를 위해<br> 서로를 존중하고 적극적으로 참여합니다.
+    </div>
+    <div class="section__cod__index">
+        <amp-img width="60"
+                    height="60"
+                    layout="fixed"
+                    src="images/ic-cod-smle.png">
+        </amp-img>
+        <br> 편안한 컨퍼런스를 위해<br> 미소로 인사하고, 경청하고, 자신을 솔직하게 표현합니다.
+    </div>
+    <div class="section__cod__index">
+        <amp-img width="60"
+                    height="60"
+                    layout="fixed"
+                    src="images/ic-cod-dove.png">
+        </amp-img>
+        <br> 안전한 컨퍼런스를 위해<br> 정치, 종교, 인종, 성적지향 관련 차별적 발언과 행동은 허용되지 않습니다.
     </div>
 </div>
 
