@@ -429,9 +429,9 @@
         outline: none;
         margin-top: 10px;
       }
-      .schedule__selector__agile, .schedule__selector__culture, .schedule__selector__human {
+      .schedule__selector__agile, .schedule__selector__culture, .schedule__selector__human, .schedule__selector__casestudy, .schedule__selector__handson {
         display: inline-block;
-        width: 30%;
+        width: 20%;
         height: 93px;
         max-width: 220px;
         font-size: 14px;
@@ -442,16 +442,36 @@
         margin-left: 2px;
         margin-right: 2px;
       }
+
       .schedule__selector__track {
+        min-width: 60;
+        font-size: 10px;
         text-align: left;
       }
       .schedule__selector__subject {
-        font-size: 16px;
+        min-width: 60;
+        font-size: 10px;
         font-weight: bold;
         line-height: 1.5;
         margin-top: 2px;
         text-align: left;
       }
+
+      @media (min-width: 1024px) {
+        .schedule__selector__track {
+          font-size: 14px;
+          text-align: left;
+        }
+
+        .schedule__selector__subject {
+          font-size: 16px;
+          font-weight: bold;
+          line-height: 1.5;
+          margin-top: 2px;
+          text-align: left;
+        }
+      }
+
       amp-selector:not([disabled]) {
         display: flex;
         color: black;
@@ -468,6 +488,16 @@
       }
       amp-selector .schedule__selector__human[option][selected] {
         background: #1dd245;
+        color: #ffffff;
+        outline: none;
+      }
+      amp-selector .schedule__selector__casestudy[option][selected] {
+        background: #0050d4;
+        color: #ffffff;
+        outline: none;
+      }
+      amp-selector .schedule__selector__handson[option][selected] {
+        background: #0050d4;
         color: #ffffff;
         outline: none;
       }
@@ -670,7 +700,7 @@
         color: #06c730;
       }
 
-      .atlassian {
+      .atlassian, .casestudy, .handson {
         color: #0050d4;
       }
     </style>
@@ -930,6 +960,16 @@
              option="human">
           <div class="schedule__selector__track">Track3</div>
           <div class="schedule__selector__subject">Human</div>
+        </div>
+        <div class="schedule__selector__casestudy"
+             option="casestudy">
+          <div class="schedule__selector__track">Track4</div>
+          <div class="schedule__selector__subject">Case Study</div>
+        </div>
+        <div class="schedule__selector__handson"
+             option="handson">
+          <div class="schedule__selector__track">Track5</div>
+          <div class="schedule__selector__subject">Hands On</div>
         </div>
       </amp-selector>
   

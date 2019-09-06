@@ -202,5 +202,93 @@
       "color": "human",
       "note": "민첩하고 지속가능한 조직 개발 이론 sociocracy, 애자일과 비슷한 철학, 그러나 완결적인 조직개발 이론이라는 면에서 애자일과 다른 sociocracy 그리고 소시오크라시와 애자일에 날개를 달아줄 퍼실리테이션, 세 가지 개념의 관계를 통찰함.\n\n목차:\n- “socio + cracy” vs “demo + cracy”\n- Sociocracy, 협업의 DNA\n- 자율경영의 7가지 톱니바퀴"
     }
+  ],
+  "casestudy": [
+    {
+      "start": "13 : 00",
+      "end": "13 : 50",
+      "title": "원스토어 애자일 조직 이야기, 거의 완벽에 가까운 사람들",
+      "name": "최은봉",
+      "company": "원스토어",
+      "img": "/img/speaker/img-key-13.png",
+      "sImg": "/img/speaker/img-keynote-pop-13.png",
+      "track": "casestudy",
+      "time": "13:00 - 13:50",
+      "location": "casestudy",
+      "color": "casestudy",
+      "note": "애자일이 실제로 어떤 모습으로 실현되고 있는지 궁금한 분들을 위해 원스토어에서의 여러 가지 사례를 보여 드리자는 제안을 받았습니다.\n3년 전 작은 TF 조직에서부터 시작한 변화의 시도부터 현재 모습, 그리고 앞으로의 계획까지 외부 공개가 가능한 범위 내에서 공유 드리겠습니다.\n"
+    },
+    {
+      "start": "14 : 00",
+      "end": "14 : 50",
+      "title": "안정지향적 조직에서 어떻게 애자일을 적용할 것인가?",
+      "name": "정광섭",
+      "company": "한국무역정보통신(KTNET)",
+      "img": "/img/speaker/img-key-13.png",
+      "sImg": "/img/speaker/img-keynote-pop-13.png",
+      "track": "casestudy",
+      "time": "14:00 - 14:50",
+      "location": "casestudy",
+      "color": "casestudy",
+      "note": "전사적으로 agile 을 도입 하기 위한 애자일문화 구축과 인사제도 개선 등의 큰변화는 모든 조직이 가능하지는 않습니다.\n안정지향적 조직에서 기술팀 자생적으로 기존문화와 프로세스와 공존하면서 애자일의 주요프랙티스를 도입한 과정과 atlassian 도구를 활용해 이를 업무에 녹여낸 결과를설명합니다.\n또 진행하면서 겪은 어려움과 기술팀 주도로 도입했을 때의 한계와 아쉬움도 공유합니다.\n"
+    },
+    {
+      "start": "15 : 00",
+      "end": "15 : 50",
+      "title": "주52시간 시대의 Agile(ITSM, ALM, 협업, Opsgenie, Statuspage)",
+      "name": "한진규",
+      "company": "오픈소스컨설팅",
+      "img": "/img/speaker/img-key-13.png",
+      "sImg": "/img/speaker/img-keynote-pop-13.png",
+      "track": "casestudy",
+      "time": "15:00 - 15:50",
+      "location": "casestudy",
+      "color": "casestudy",
+      "note": "주 52시간 시대에 애자일스럽게 일한다는 것은 무엇인지, 아틀라시안이 바라보는 애자일한 일하기에 대해 공유합니다."
+    },
+    {
+      "start": "16 : 00",
+      "end": "16 : 50",
+      "title": "카카오는 애자일한가요?",
+      "name": "이호정",
+      "company": "카카오",
+      "img": "/img/speaker/img-key-13.png",
+      "sImg": "/img/speaker/img-keynote-pop-13.png",
+      "track": "casestudy",
+      "time": "16:00 - 16:50",
+      "location": "casestudy",
+      "color": "casestudy",
+      "note": "카카오는 어느 회사보다도 열린 문화를 가진 기업입니다. mindset, work, communication, information 등 열 수 있는 모든 것이 열려 있습니다.\n그리고 이러한 열린 문화를 지속해서 유지하고 더욱 성숙시키기 위해 많은 노력을 하고 있습니다.\n이러한 열린 문화를 가진 카카오에서 애자일이 어떻게 자리 잡고 있는지를 이야기하려 합니다.\n\n목차\n- 카카오의 문화 : 카카오의 문화에 관해 이야기합니다.\n- 카카오가 애자일을 받아들이는 자세 : 카카오는 애자일을 어떻게 받아들이고 카카오의 문화로 만들고 있는지를 소개합니다.\n- Jira를 활용한 Agile 사례 : 카카오에서의 일반적인 JIRA 활용 사례, 서비스별 JIRA활용 사례들을 소개합니다.\n"
+    }
+  ],
+  "handson": [
+    {
+      "start": "13 : 00",
+      "end": "14 : 50",
+      "title": "Atlassian으로 ITSM, CICD 흉내내기",
+      "name": "백도운",
+      "company": "오픈소스컨설팅",
+      "img": "/img/speaker/img-key-13.png",
+      "sImg": "/img/speaker/img-keynote-pop-13.png",
+      "track": "handson",
+      "time": "13:00 - 14:50",
+      "location": "handson",
+      "color": "handson",
+      "note": "1. Jira Service Desk Cloud 를 이용한 ticket 처리\n2. Jira Cloud 를 이용한 이슈 처리\n3. Bitbucket cloud을 이용한 소스코드 관리\n4. Bitbucket Pipeline을 이용한 배포\n삼성전자는 소규모 애자일팀을 위한 노력을 해왔으며, 이제는 대규모 애자일 조직으로 변화를 위한 첫 번째 노력을 시작하였습니다. 애자일 조직으로 변화를 위한 여정을 소개하며, 그 과정에서 코치로서 겪은 어려움, 맛 본 보람 그리고 조직의 변화에 대한 이야기를 나누고자 합니다.\n\n- 변화 에이전트 : 애자일코치의 새로운 이름과 역할\n- 애자일팀에서 애자일조직으로 : 애자일팀의 한계와 애자일 조직의 필요성\n- 애자일 조직으로 변화 노력 : 조직 진단, 조직 설계, 조직 시스템 설계 및 운영 사례\n- 회고 : 애자일 조직 적용 회고"
+    },
+    {
+      "start": "15 : 00",
+      "end": "16 : 50",
+      "title": "Jira에서 Waterfall과 Agile이 공존하는 방법",
+      "name": "신철민",
+      "company": "디프로그웍스",
+      "img": "/img/speaker/img-key-13.png",
+      "sImg": "/img/speaker/img-keynote-pop-13.png",
+      "track": "handson",
+      "time": "15:00 - 16:50",
+      "location": "handson",
+      "color": "handson",
+      "note": "가장 대표적인 애자일 툴인 지라에서도 워터폴 방식 프로젝트도 함께 운영해야 할 때가 있죠. 지라를 사용하면서 워터폴 방식도 잘 표현할 수 있는 방법을 Jira와 Structure add-on을 활용하여 구현해보는 시간입니다."
+    }
   ]
 }
