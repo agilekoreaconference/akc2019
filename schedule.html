@@ -457,17 +457,17 @@
         color: black;
       }
       amp-selector .schedule__selector__agile[option][selected] {
-        background: #0674d8;
+        background: var(--sapphire);
         color: #ffffff;
         outline: none;
       }
       amp-selector .schedule__selector__culture[option][selected] {
-        background: #00a6c5;
+        background: var(--azure);
         color: #ffffff;
         outline: none;
       }
       amp-selector .schedule__selector__human[option][selected] {
-        background: #06ce83;
+        background: #1dd245;
         color: #ffffff;
         outline: none;
       }
@@ -658,20 +658,8 @@
         opacity: 0.8;
       }
 
-      .pascal {
-        color: #0674d8;
-      }
-
-      .magellan {
-        color: #00a6c5;
-      }
-
-      .multi {
-        color: #06ce83;
-      }
-
       .agile {
-        color: #0674d8
+        color: #2e2b9b;
       }
 
       .culture {
@@ -679,7 +667,7 @@
       }
 
       .human {
-        color: #1dd245;
+        color: #06c730;
       }
 
       .atlassian {
@@ -967,7 +955,7 @@
               <div class="schedule__detail__location"
                    [class]="'schedule__detail__location {{color}}'">
                 <amp-img src="images/location_default.svg"
-                         [src]="'images/location_{{color}}.svg'"
+                         [src]="'img/location-{{color}}.svg'"
                          width="16" height="16" layout="fixed">
                 </amp-img>
                 {{location}}
