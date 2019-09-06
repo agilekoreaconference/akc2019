@@ -1,247 +1,484 @@
-<!doctype html>
+<!DOCTYPE html>
 <html ⚡>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-  <link rel="canonical" href="https://agilekoreaconference.github.io">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR">
-  <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
+  <head>
+    <meta charset="utf-8" />
 
-  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-  <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <title>Agile Korea Conference 2019</title>
 
-  <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
-  <script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
-  <script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script>
-  <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
-  <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
-  <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
-  <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
-  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <link rel="canonical" href="https://agilekorea.kr/index.html" />
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
 
-  <style amp-custom>
-    ::-webkit-scrollbar {
-      display: none;
-    }
-    body {
-      font-family: "Noto Sans KR";
-    }
-    header {
-      display: grid;
-      grid-template-columns: 55px 1fr 58px;
-      width: auto;
-      height: 58px;
-      background: transparent;
-      z-index: 2;
-      position: relative;
-    }
-    h2 {
-      font-size: 24px;
-      font-weight: 900;
-      color: #232b31;
-    }
-    .header {
-      position: relative;
-    }
-    .header__logo {
-      margin: 14px 0px 9px 16px;
-    }
-    .header__hamburger {
-      display: flex;
-      width: 58px;
-      height: 58px;
-      background-color: #ffffff;
-      justify-content: center;
-      align-items: center;
-    }
-    #sidebar {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background: white;
-      width: 100vw;
-      height: 360px;
-      max-width: 100%;
-      text-align: center;
-      font-size: 20px;
-      color: #232b31;
-    }
-    #sidebar > ul {
-      list-style-type: none;
-      padding: 0px;
-      margin-bottom: 20px;
-    }
-    #sidebar > ul > li {
-      padding: 10px 0px;
-    }
-    #sidebar > ul > li > a {
-      text-decoration: none;
-      color: #232b31;
-    }
-    .sidebar__header {
-      display: grid;
-      grid-template-columns: 55px 1fr 58px;
-      width: 100%;
-      height: 58px;
-    }
-    .sidebar__header__logo {
-      margin: 14px 0px 9px 16px;
-    }
-    .sidebar__header__close {
-      display: flex;
-      width: 58px;
-      height: 58px;
-      background-color: #ffffff;
-      justify-content: center;
-      align-items: center;
-    }
-    .slogan__section {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 100vw;
-      height: 180px;
-      margin-top: -63px;
-    }
-    .schedule__title__background {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 175px;
-    }
-    .schedule__title__text {
-      position: absolute;
-    }
+    <style amp-boilerplate>
+      body {
+        -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+        -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+        -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+        animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      }
 
-    .schedule__table {
-      margin: 0 10px;
-      border-top: 1px solid #171b20;
-    }
-    .schedule__table__row {
-      display: grid;
-      grid-template-columns: 65px 1fr;
-      align-items: baseline;
-      padding: 20px 10px;
-      border-bottom: 1px solid #dee2e6;
-    }
-    .schedule__time {
-      font-size: 14px;
-      font-weight: bold;
-      letter-spacing: -0.3px;
-      color: #171b20;
-    }
-    .schedule__detail {
-      padding-left: 20px;
-      position: relative;
-    }
-    .schedule__detail__keynote {
-      font-size: 14px;
-      color: #444f57;
-    }
-    .schedule__detail__title {
-      font-size: 16px;
-      line-height: 1.56;
-      letter-spacing: -0.3px;
-      color: #232b31;
-    }
-    .schedule__detail__name {
-      opacity: 0.5;
-      font-size: 14px;
-      letter-spacing: -0.3px;
-      color: #000000;
-      margin-top: 4px;
-    }
-    .schedule__detail__location {
-      display: flex;
-      align-items: center;
-      opacity: 0.5;
-      font-size: 14px;
-      letter-spacing: -0.3px;
-      color: #232b31;
-      margin-top: 10px;
-    }
-    .schedule__detail__more {
-      position: absolute;
-      top: 0;
-      width: 100%;
-      height: 100%;
-    }
-    amp-selector {
-      justify-content: center;
-      text-align: center;
-      outline: none;
-      margin-top: 10px;
-    }
-    .schedule__selector__pascal, .schedule__selector__magellan, .schedule__selector__multi {
-      display: inline-block;
-      width: 30%;
-      height: 93px;
-      max-width: 220px;
-      font-size: 14px;
-      color: black;
-      letter-spacing: -0.3px;
-      padding: 13px 16px;
-      border: 1px solid #dee2e6;
-      margin-left: 2px;
-      margin-right: 2px;
-    }
-    .schedule__selector__track {
-      text-align: left;
-    }
-    .schedule__selector__subject {
-      font-size: 16px;
-      font-weight: bold;
-      line-height: 1.5;
-      margin-top: 2px;
-      text-align: left;
-    }
-    amp-selector:not([disabled]) {
-      display: flex;
-      color: black;
-    }
-    amp-selector .schedule__selector__pascal[option][selected] {
-      background: #0674d8;
-      color: #ffffff;
-      outline: none;
-    }
-    amp-selector .schedule__selector__magellan[option][selected] {
-      background: #00a6c5;
-      color: #ffffff;
-      outline: none;
-    }
-    amp-selector .schedule__selector__multi[option][selected] {
-      background: #06ce83;
-      color: #ffffff;
-      outline: none;
-    }
-    .link__section {
-      display: flex;
-      justify-content: center;
-      margin-top: 40px;
-    }
-    .link__section > a {
-      width: 240px;
-      height: 22px;
-      padding: 20px 0px;
-      background-image: linear-gradient(to right, #1accbf, #008cfd);
-      font-size: 18px;
-      color: white;
-      text-decoration: none;
-      text-align: center;
-    }
+      @-webkit-keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+        to {
+          visibility: visible;
+        }
+      }
 
-    #my-lightbox {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: rgba(0, 0, 0, 0.2);
-    }
-    .speaker__ligthbox {
+      @-moz-keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+        to {
+          visibility: visible;
+        }
+      }
+
+      @-ms-keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+        to {
+          visibility: visible;
+        }
+      }
+
+      @-o-keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+        to {
+          visibility: visible;
+        }
+      }
+
+      @keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+        to {
+          visibility: visible;
+        }
+      }
+    </style>
+    <noscript>
+      <style amp-boilerplate>
+        body {
+          -webkit-animation: none;
+          -moz-animation: none;
+          -ms-animation: none;
+          animation: none;
+        }
+      </style>
+    </noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "Agile Korea Conference 2019",
+        "startDate": "2019-10-18T09:00",
+        "endDate": "2019-10-18T19:00",
+        "description": "Agile, Culture, Human - Be The Change. 2019.10.18 09 코엑스 그랜드볼룸",
+        "performer": {
+          "@type": "PerformingGroup",
+          "name": "AgileKoreaConference"
+        },
+        "location": {
+          "@type": "Place",
+          "name": "코엑스 그랜드볼룸",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "강남구 삼성1동 영동대로513",
+            "addressLocality": "서울",
+            "postalCode": "05510",
+            "addressCountry": "KR"
+          }
+        }
+      }
+    </script>
+    <script
+      async
+      custom-element="amp-sidebar"
+      src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"
+    ></script>
+    <script
+      async
+      custom-template="amp-mustache"
+      src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"
+    ></script>
+    <script
+      async
+      custom-element="amp-list"
+      src="https://cdn.ampproject.org/v0/amp-list-0.1.js"
+    ></script>
+    <script
+      async
+      custom-element="amp-bind"
+      src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"
+    ></script>
+    <script
+      async
+      custom-element="amp-lightbox"
+      src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"
+    ></script>
+    <script
+      async
+      custom-element="amp-fx-collection"
+      src="https://cdn.ampproject.org/v0/amp-fx-collection-0.1.js"
+    ></script>
+    <script
+      async
+      custom-element="amp-fit-text"
+      src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"
+    ></script>
+    <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
+    <script
+      async
+      custom-element="amp-analytics"
+      src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"
+    ></script>
+    <script
+      async
+      custom-element="amp-iframe"
+      src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+    ></script>
+
+    <style amp-custom>
+      ::-webkit-scrollbar {
+        display: none;
+      }
+
+      @font-face {
+        font-family: "Spoqa Han Sans";
+        src: url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
+      }
+
+      :root {
+        --dark: #232b31;
+        --sapphire: #2e2b9b;
+        --azure: #00b0e8;
+      }
+
+      body {
+        font-family: "Spoqa Han Sans", sans-serif;
+      }
+
+      header {
+        display: grid;
+        grid-template-columns: 55px 1fr 58px;
+        width: auto;
+        height: 58px;
+        background: transparent;
+        z-index: 2;
+        position: relative;
+      }
+
+      .header__logo {
+        margin-top: 14px;
+        margin-left: 16px;
+        width: 55px;
+        height: 35px;
+      }
+
+      @media (min-width: 1024px) {
+        .header__logo {
+          margin-top: 19px;
+          margin-left: 40px;
+          width: 77px;
+          height: 49px;
+        }
+      }
+
+      .header__hamburger {
+        display: flex;
+        width: 58px;
+        height: 58px;
+        background-color: #ffffff;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #sidebar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: white;
+        width: 100vw;
+        height: 360px;
+        max-width: 100%;
+        text-align: center;
+        font-size: 20px;
+        color: var(--dark);
+      }
+
+      #sidebar > ul {
+        list-style-type: none;
+        padding: 0px;
+        margin-bottom: 20px;
+      }
+
+      #sidebar > ul > li {
+        padding: 10px 0px;
+      }
+
+      #sidebar > ul > li > a {
+        text-decoration: none;
+        color: var(--dark);
+      }
+
+      .sidebar__header {
+        display: grid;
+        grid-template-columns: 55px 1fr 58px;
+        width: 100%;
+        height: 58px;
+      }
+
+      .sidebar__header__logo {
+        width: 55px;
+        height: 35px;
+        object-fit: contain;
+      }
+      @media (min-width: 1024px) {
+        .sidebar__header__logo {
+          width: 77px;
+          height: 49px;
+          object-fit: contain;
+        }
+      }
+
+      .sidebar__header__close {
+        display: flex;
+        width: 58px;
+        height: 58px;
+        background-color: #ffffff;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .scrollToTop {
+        width: 48px;
+        height: 48px;
+        z-index: 1;
+        bottom: 82px;
+        right: 16px;
+        position: fixed;
+        opacity: 0;
+        visibility: hidden;
+      }
+
+      #marker {
+        position: absolute;
+        top: 100px;
+        width: 0px;
+        height: 0px;
+      }
+
+      .slogan__section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 176px;
+        margin-top: -58px;
+        position: relative;
+        background-color: var(--sapphire);
+      }
+
+      .slogan__section__background {
+        width: 156px;
+        height: 176px;
+        position: absolute;
+        top: 58;
+        left: 0;
+      }
+
+      .slogan__section__right__background {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 48px;
+        width: 88px;
+        height: 128px;
+      }
+
+      .about__title__text {
+        position: absolute;
+        width: 220px;
+        height: 60px;
+      }
+
+      @media (min-width: 1024px) {
+        .slogan__section {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100vw;
+          height: 176px;
+          position: relative;
+          background-color: var(--sapphire);
+        }
+
+        .slogan__section__background {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 156px;
+          height: 176px;
+        }
+
+        .slogan__section__right__background {
+          display: block;
+          position: absolute;
+          right: 0;
+          top: 48px;
+          width: 88px;
+          height: 128px;
+        }
+
+        .about__title__text {
+          position: absolute;
+          width: 220px;
+          height: 60px;
+        }
+      }
+
+      section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 10px;
+      }
+
+      .section__bullet {
+        margin-top: 12px;
+      }
+
+      .section__title {
+        /* font-family: SpoqaHanSans; */
+        font-size: 32px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: -0.3px;
+        text-align: center;
+        color: var(--dark);
+        margin-top: 10px;
+      }
+
+      .schedule__table {
+        margin: 0 10px;
+        border-top: 1px solid #171b20;
+      }
+      .schedule__table__row {
+        display: grid;
+        grid-template-columns: 65px 1fr;
+        align-items: baseline;
+        padding: 20px 10px;
+        border-bottom: 1px solid #dee2e6;
+      }
+      .schedule__time {
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: -0.3px;
+        color: #171b20;
+      }
+      .schedule__detail {
+        padding-left: 20px;
+        position: relative;
+      }
+      .schedule__detail__keynote {
+        font-size: 14px;
+        color: #444f57;
+      }
+      .schedule__detail__title {
+        font-size: 16px;
+        line-height: 1.56;
+        letter-spacing: -0.3px;
+        color: #232b31;
+      }
+      .schedule__detail__name {
+        opacity: 0.5;
+        font-size: 14px;
+        letter-spacing: -0.3px;
+        color: #000000;
+        margin-top: 4px;
+      }
+      .schedule__detail__location {
+        display: flex;
+        align-items: center;
+        opacity: 0.5;
+        font-size: 14px;
+        letter-spacing: -0.3px;
+        color: #232b31;
+        margin-top: 10px;
+      }
+      .schedule__detail__more {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+      }
+      amp-selector {
+        justify-content: center;
+        text-align: center;
+        outline: none;
+        margin-top: 10px;
+      }
+      .schedule__selector__agile, .schedule__selector__culture, .schedule__selector__human {
+        display: inline-block;
+        width: 30%;
+        height: 93px;
+        max-width: 220px;
+        font-size: 14px;
+        color: black;
+        letter-spacing: -0.3px;
+        padding: 13px 16px;
+        border: 1px solid #dee2e6;
+        margin-left: 2px;
+        margin-right: 2px;
+      }
+      .schedule__selector__track {
+        text-align: left;
+      }
+      .schedule__selector__subject {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.5;
+        margin-top: 2px;
+        text-align: left;
+      }
+      amp-selector:not([disabled]) {
+        display: flex;
+        color: black;
+      }
+      amp-selector .schedule__selector__agile[option][selected] {
+        background: #0674d8;
+        color: #ffffff;
+        outline: none;
+      }
+      amp-selector .schedule__selector__culture[option][selected] {
+        background: #00a6c5;
+        color: #ffffff;
+        outline: none;
+      }
+      amp-selector .schedule__selector__human[option][selected] {
+        background: #06ce83;
+        color: #ffffff;
+        outline: none;
+      }
+
+      #my-lightbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.2);
+      }
+      .speaker__ligthbox {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -315,408 +552,538 @@
       overflow: scroll;
       max-height: 282px;
       white-space: pre-wrap;
-      font-family: "Noto Sans KR"
+
     }
 
-    footer {
-      height: 160px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .footer__link {
-      display: flex;
-      justify-content: center;
-    }
-    .footer__link__mailto {
-      margin-right: 20px;
-    }
-    .footer__site__link {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      width: 120px;
-      opacity: 0.5;
-      font-size: 13px;
-      letter-spacing: -0.3px;
-      color: #232b31;
-    }
-    .footer__site__link a {
-      text-decoration: none;
-      color: #232b31;
-    }
-    .footer__copyright {
-      display: flex;
-      justify-content: center;
-      margin-top: 18px;
-    }
-    .default {
-      color: #232b31;
-      opacity: 0.8;
-    }
-    .pascal {
-      color: #0674d8;
-      opacity: 1;
-    }
-    .magellan {
-      color: #00a6c5;
-      opacity: 1;
-    }
-    .multi {
-      color: #06ce83;
-      opacity: 1;
-    }
+      .article {
+        /* display: flex;
+        flex-direction: column; */
+        width: calc(100vw - 40px);
+        margin-top: 32px;
+        margin-bottom: 37px;
+        word-break: keep-all;
 
-  </style>
-</head>
-<body>
-  <amp-analytics type="googleanalytics">
-    <script type="application/json">
-      {
-        "vars": {
-          "account": "UA-90999360-2"
-        },
-        "triggers": {
-          "trackPageview": {
-            "on": "visible",
-            "request": "pageview"
-          }
+        font-size: 18px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.78;
+        letter-spacing: -0.3px;
+        color: #171b20;
+      }
+
+      .line-copy {
+        width: 340px;
+        height: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        opacity: 0.8;
+        background-color: #171b20;
+      }
+
+      @media (min-width: 1024px) {
+        .article {
+          width: 816px;
+          margin-top: 28px;
+          margin-bottom: 37px;
+          margin-left: auto;
+          margin-right: auto;
+          word-break: keep-all;
+
+          font-size: 18px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.78;
+          letter-spacing: -0.3px;
+          color: #171b20;
+        }
+
+        .line-copy {
+          width: 816px;
+          height: 1px;
+          margin: auto;
+          opacity: 0.8;
+          background-color: #171b20;
         }
       }
-    </script>
-  </amp-analytics>
-  <amp-state id="track">
-    <script type="application/json">
-      {
-        "selected": "track1"
-      }
-    </script>
-  </amp-state>
-  <amp-state id="selectedSpeaker">
-    <script type="application/json">
-      {
-        "name": "nobody",
-        "company": "company",
-        "img": "images/empty_profile_L.png",
-        "sImg": "images/empty_profile.png",
-        "track": "track",
-        "time": "00:00~00:00",
-        "location": "location",
-        "color": "default",
-        "title": "title",
-        "note": "more"
-      }
-    </script>
-  </amp-state>
 
-  <amp-state id="trackInfo" src="data/schedule.json">
-  </amp-state>
+      footer {
+        height: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #f8f8fa;
+      }
 
-  <!-- navigator -->
-  <div class="header">
+      .footer__link {
+        display: flex;
+        justify-content: center;
+      }
+
+      .footer__link__mailto {
+        margin-right: 20px;
+      }
+
+      .footer__site__link {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* width: 220px; */
+        width: 160px;
+        opacity: 0.5;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: -0.3px;
+        color: var(--dark);
+      }
+
+      .footer__site__link a {
+        text-decoration: none;
+        color: var(--dark);
+      }
+
+      .footer__copyright {
+        display: flex;
+        justify-content: center;
+        margin-top: 18px;
+        font-size: 12px;
+      }
+
+      .default {
+        color: #232b31;
+        opacity: 0.8;
+      }
+
+      .pascal {
+        color: #0674d8;
+      }
+
+      .magellan {
+        color: #00a6c5;
+      }
+
+      .multi {
+        color: #06ce83;
+      }
+
+      .agile {
+        color: #0674d8
+      }
+
+      .culture {
+        color: #00b0e8
+      }
+
+      .human {
+        color: #1dd245;
+      }
+
+      .atlassian {
+        color: #0050d4;
+      }
+    </style>
+  </head>
+  <body>
+    <amp-analytics type="googleanalytics">
+      <script type="application/json">
+        {
+            "vars": {
+                "account": "UA-90999360-2"
+            },
+            "triggers": {
+                "trackPageview": {
+                    "on": "visible",
+                    "request": "pageview"
+                }
+            }
+        }
+      </script>
+    </amp-analytics>
+
+    <amp-state id="track">
+        <script type="application/json">
+          {
+            "selected": "agile"
+          }
+        </script>
+      </amp-state>
+      <amp-state id="selectedSpeaker">
+        <script type="application/json">
+          {
+            "name": "nobody",
+            "company": "company",
+            "img": "images/empty_profile_L.png",
+            "sImg": "images/empty_profile.png",
+            "track": "track",
+            "time": "00:00~00:00",
+            "location": "location",
+            "color": "default",
+            "title": "title",
+            "note": "more"
+          }
+        </script>
+      </amp-state>
+    <amp-state id="trackInfo" src="data/schedule2019.json">
+    </amp-state>
+
+    <!-- scroll to here -->
+    <div id="top-page"></div>
+
+    <!-- navigator -->
     <header>
       <a href="index.html">
-        <amp-img class="header__logo"
-                 src="images/logo_mainbk.png"
-                 width="55px"
-                 height="35px"
-                 layout="fixed">
+        <amp-img
+          class="header__logo"
+          src="img/img-logo-wh.svg"
+          width="157px"
+          height="272px"
+          layout="responsive"
+        >
         </amp-img>
       </a>
       <div></div>
       <div class="header__hamburger">
-        <amp-img src="images/home_menu.svg"
-                 width="30"
-                 height="30"
-                 layout="fixed"
-                 on="tap:sidebar.toggle"
-                 role="button"
-                 tabindex="0">
+        <amp-img
+          src="images/home_menu.svg"
+          width="30"
+          height="30"
+          layout="fixed"
+          on="tap:sidebar.toggle"
+          role="button"
+          tabindex="0"
+        >
         </amp-img>
       </div>
     </header>
 
-    <div class="slogan__section">
-      <div class="schedule__title__background">
-        <amp-img src="images/schedule-left-bg.png"
-                 width="180"
-                 height="175"
-                 layout="fixed">
-        </amp-img>
-        <amp-img src="images/schedule-right-bg.png"
-                 width="180"
-                 height="175"
-                 layout="fixed">
-        </amp-img>
-      </div>
-
-      <amp-img class="schedule__title__text"
-               src="images/schedule_title.svg"
-               width="220"
-               height="60"
-               layout="fixed">
-      </amp-img>
-    </div>
-  </div>
-  <!-- side bar -->
-  <amp-sidebar id="sidebar"
-               layout="nodisplay"
-               side="right">
-    <div class="sidebar__header">
-      <amp-img class="sidebar__header__logo"
-               src="images/logo_mainbk.png"
-               width="55px"
-               height="35px"
-               layout="fixed">
-      </amp-img>
-      <div></div>
-      <div class="sidebar__header__close">
-        <amp-img src="images/home_menu.svg"
-                 width="30"
-                 height="30"
-                 layout="fixed"
-                 on="tap:sidebar.close"
-                 role="button"
-                 tabindex="0">
-        </amp-img>
-      </div>
-    </div>
-    <ul>
-      <li><a href="about.html">ABOUT</a></li>
-      <li><a href="honor.html">Hall Of Honor</a></li>
-      <li><a href="schedule.html">스케쥴</a></li>
-      <li><a href="faq.html">FAQ</a></li>
-      <!--<li><a href="https://booking.naver.com/booking/5/bizes/185789/items/2885535" target="_blank">등록하기</a></li>-->
-      <li><a href="https://ko-kr.facebook.com/AgileKoreaConference/" target="_blank">공식 페이스북</a></li>
-    </ul>
-  </amp-sidebar>
-
-  <!-- schedule table -->
-  <div class="schedule__table">
-    <!--AM Session-->
-    <div class="schedule__table__row">
-      <div class="schedule__time">
-        08 : 30<br>
-        -<br>
-        09 : 00<br>
-      </div>
-      <div class="schedule__detail">
-        <div class="schedule__detail__title">등록</div>
-        <div class="schedule__detail__location">
-          <amp-img src="images/location_default.svg"
-                   width="16" height="16" layout="fixed">
-          </amp-img>
-          삼성SDS 잠실사옥 지하 1
-        </div>
-      </div>
-    </div>
-    <div class="schedule__table__row">
-      <div class="schedule__time">
-        09 : 00<br>
-        -<br>
-        10 : 20<br>
-      </div>
-      <div class="schedule__detail">
-        <div class="schedule__detail__title">Lean Coffee</div>
-        <div class="schedule__detail__location">
-          <amp-img src="images/location_default.svg"
-                   width="16" height="16" layout="fixed">
-          </amp-img>
-          삼성SDS 잠실사옥 지하 1
-        </div>
-      </div>
-    </div>
-    <div class="schedule__table__row">
-      <div class="schedule__time">
-        10 : 30<br>
-        -<br>
-        11 : 30<br>
-      </div>
-      <div class="schedule__detail">
-        <div class="schedule__detail__keynote">KEYNOTE</div>
-        <div class="schedule__detail__title">
-          Mindset & Culture: At the Heart of a Winning Agile Transformation
-        </div>
-        <div class="schedule__detail__name">
-          Ahmed Sidky / Riot Games
-        </div>
-        <div class="schedule__detail__location magellan">
-          <amp-img src="images/location_magellan.svg"
-                   width="16" height="16" layout="fixed">
-          </amp-img>
-          마젤란홀
-        </div>
-        <div class="schedule__detail__more"
-             tabindex="0"
-             role="button"
-             on="tap:AMP.setState({
-                      selectedSpeaker:{
-                        name:'Ahmed Sidky',
-                        company:'Riot Games',
-                        img:'/images/speaker/ahmed.jpg',
-                        sImg:'/images/speaker/ahmed_s.jpg',
-                        track:'Key Note',
-                        time:'10:30 - 11:30',
-                        location: '마젤란홀',
-                        title:'Mindset & Culture: At the Heart of a Winning Agile Transformation',
-                        note: 'Agile is not a process, nor a methodology it is a Mindset. Similarly, an Agile transformation is not about changing processes, systems or tools, it is about transforming the culture. But how do you transform culture and mindset? This is the key question that Dr. Ahmed Sidky will explore in this talk.',
-                        color: 'magellan'
-                      }
-                    }),my-lightbox"></div>
-      </div>
-    </div>
-
-    <!--Session selector-->
-    <amp-selector layout="container"
-                  on="select:AMP.setState({track: {selected: event.targetOption}})">
-      <div class="schedule__selector__pascal"
-           option="track1"
-           selected>
-        <div class="schedule__selector__track">Track1</div>
-        <div class="schedule__selector__subject">Becoming Agile</div>
-      </div>
-
-      <div class="schedule__selector__magellan"
-           option="track2">
-        <div class="schedule__selector__track">Track2</div>
-        <div class="schedule__selector__subject">Beyond Agile</div>
-      </div>
-
-      <div class="schedule__selector__multi"
-           option="track3">
-        <div class="schedule__selector__track">Track3</div>
-        <div class="schedule__selector__subject">Dancing with Agile</div>
-      </div>
-    </amp-selector>
-
-    <!--PM Session-->
-    <amp-list
-            width="auto"
-            height="800"
-            layout="fixed-height"
-            [src]="trackInfo[track.selected]"
-            src="data/schedule_default.json">
-      <template type="amp-mustache">
-        <div class="schedule__table__row">
-          <div class="schedule__time">
-            {{start}}<br>
-              -<br>
-            {{ end}}<br>
-          </div>
-          <div class="schedule__detail">
-            <div class="schedule__detail__title">{{title}}</div>
-            <div class="schedule__detail__name">
-              {{#name}} {{name}} / {{company}} {{/name}}
-            </div>
-            <div class="schedule__detail__location"
-                 [class]="'schedule__detail__location {{color}}'">
-              <amp-img src="images/location_default.svg"
-                       [src]="'images/location_{{color}}.svg'"
-                       width="16" height="16" layout="fixed">
-              </amp-img>
-              {{location}}
-            </div>
-            <!--mustache conditional support only single line-->
-            {{#note}}
-              <div class="schedule__detail__more"
-                   tabindex="0"
-                   role="button"
-                   on="tap:AMP.setState({
-                      selectedSpeaker:{
-                        name:'{{name}}',
-                        company:'{{company}}',
-                        img:'{{img}}',
-                        sImg:'{{sImg}}',
-                        track:'{{track}}',
-                        time:'{{time}}',
-                        location: '{{location}}',
-                        title:'{{title}}',
-                        note:'{{note}}',
-                        color: '{{color}}'
-                      }
-                    }),my-lightbox"></div>
-            {{/note}}
-          </div>
-        </div>
-      </template>
-    </amp-list>
-  </div>
-
-  <!--speaker detail popup-->
-  <amp-lightbox id="my-lightbox"
-                layout="nodisplay"
-                scrollable>
-    <div class="speaker__ligthbox">
-      <div class="speaker__ligthbox__header">
-        <amp-img class="speaker__ligthbox__profile"
-                 width="80"
-                 height="80"
-                 layout="fixed"
-                 [alt]="name"
-                 src="images/empty_profile.png"
-                 [src]="selectedSpeaker.sImg"></amp-img>
+    <!-- side bar -->
+    <amp-sidebar id="sidebar" layout="nodisplay" side="right">
+      <div class="sidebar__header">
+        <amp-img
+          class="sidebar__header__logo"
+          width="77px"
+          height="49px"
+          src="img/img-logo-wh.svg"
+        ></amp-img>
         <div></div>
-        <amp-img class="speaker__ligthbox__close"
-                 width="30"
-                 height="30"
-                 layout="fixed"
-                 on="tap:my-lightbox.close"
-                 role="button"
-                 src="images/ic-home-close.svg"
-                 tabindex="0">
-        </amp-img>
-      </div>
-      <div class="speaker__ligthbox__middle">
-        <div class="subtitle"
-           [class]="'subtitle ' + selectedSpeaker.color"
-           [text]="selectedSpeaker.track">
-          track
-        </div>
-        <div class="speaker__ligthbox__middle__title"
-             [text]="selectedSpeaker.title">title</div>
-        <div class="speaker__ligthbox__middle__name"
-             [text]="selectedSpeaker.name + ' / ' + selectedSpeaker.company">nobody</div>
-        <div class="speaker__ligthbox__middle__time">
-          <amp-img width="16" height="16" layout="fixed"
-                   src="images/time.svg"></amp-img>
-          <div [text]="selectedSpeaker.time">00:00~00:00</div>
-          <amp-img width="16" height="16" layout="fixed"
-                   src="images/location_default.svg"></amp-img>
-          <div [text]="selectedSpeaker.location">location</div>
+        <div class="sidebar__header__close">
+          <amp-img
+            src="images/home_menu.svg"
+            width="30"
+            height="30"
+            layout="fixed"
+            on="tap:sidebar.close"
+            role="button"
+            tabindex="0"
+          >
+          </amp-img>
         </div>
       </div>
-      <pre class="speaker__ligthbox__note"
-           [text]="selectedSpeaker.note">note
-      </pre>
-    </div>
-  </amp-lightbox>
+      <ul>
+        <li><a href="about.html">ABOUT</a></li>
+        <!--<li><a href="honor.html">Hall Of Honor</a></li>-->
+        <li><a href="schedule2.html">스케쥴</a></li>
+        <!--<li><a href="faq.html">FAQ</a></li>-->
+        <!--<li><a href="https://booking.naver.com/booking/5/bizes/185789/items/2885535" target="_blank">등록하기</a></li>-->
+        <li>
+          <a
+            href="https://ko-kr.facebook.com/AgileKoreaConference/"
+            target="_blank"
+            >공식 페이스북</a
+          >
+        </li>
+      </ul>
+    </amp-sidebar>
 
-  <!--<div class="link__section">-->
-    <!--<a href="https://booking.naver.com/booking/5/bizes/185789/items/2885535">등록하기</a>-->
-  <!--</div>-->
+    <div class="slogan__section">
+      <amp-img
+        class="slogan__section__background"
+        src="img/img-main-bg-key-01.png"
+        srcset="img/img-main-bg-key-01@2x.png 2x, img/img-main-bg-key-01@3x.png 3x"
+        width="330px"
+        height="470px"
+        layout="responsive"
+      ></amp-img>
+      </amp-img>
+      <amp-img
+        class="slogan__section__right__background"
+        src="img/img-main-bg-key-03.png"
+        srcset="img/img-main-bg-key-03@2x.png 2x, img/img-main-bg-key-03@3x.png 3x"
+        width="248"
+        height="176"
+        layout="responsive"
+      >
+      </amp-img>
 
-  <footer>
-    <div class="footer__link">
-      <a href="mailto:agilekoreaconference@gmail.com" target="_blank">
-        <amp-img class="footer__link__mailto"
-                 src="images/ic-mail.svg"
-                 width="24" height="24" layout="fixed">
-        </amp-img>
-      </a>
-      <a href="https://www.facebook.com/AgileKoreaConference/" target="_blank">
-        <amp-img class="footer__link__facebook"
-                 src="images/ic-facebook.svg"
-                 width="24" height="24" layout="fixed">
-        </amp-img>
-      </a>
+      <amp-img
+        class="about__title__text"
+        src="img/img-detailpg-title-01.svg"
+        width="220"
+        height="60"
+        layout="responsive"
+      >
+      </amp-img>
     </div>
-    <div class="footer__site__link">
-      <a href="faq.html">FAQ</a>
-      <pre>  |  </pre>
-      <a href="last-akc.html">2017 AKC</a>
+
+    <!-- schedule table -->
+  <div class="schedule__table">
+      <!--AM Session-->
+      <div class="schedule__table__row">
+        <div class="schedule__time">
+          09 : 00<br>
+          -<br>
+          10 : 00<br>
+        </div>
+        <div class="schedule__detail">
+          <div class="schedule__detail__title">등록</div>
+          <div class="schedule__detail__location">
+            <amp-img src="img/location-bl.svg"
+                      width="16" height="16" layout="fixed">
+            </amp-img>
+            COEX Grand Ballroom
+          </div>
+        </div>
+      </div>  
+      <div class="schedule__table__row">
+        <div class="schedule__time">
+          09 : 10<br>
+          -<br>
+          10 : 10<br>
+        </div>
+        <div class="schedule__detail">
+          <div class="schedule__detail__title">Lean Coffee</div>
+          <div class="schedule__detail__location">
+            <amp-img src="img/location-bl.svg"
+                      width="16" height="16" layout="fixed">
+            </amp-img>
+            COEX Grand Ballroom
+          </div>
+        </div>
+      </div>
+      <div class="schedule__table__row">
+        <div class="schedule__time">
+          10 : 30<br>
+          -<br>
+          10 : 40<br>
+        </div>
+        <div class="schedule__detail">
+          <div class="schedule__detail__title">Opening</div>
+          <div class="schedule__detail__location">
+            <amp-img src="img/location-bl.svg"
+                      width="16" height="16" layout="fixed">
+            </amp-img>
+            COEX Grand Ballroom
+          </div>
+        </div>
+      </div>
+      
+  
+      <div class="schedule__table__row">
+        <div class="schedule__time">
+          10 : 40<br>
+          -<br>
+          12 : 00<br>
+        </div>
+        <div class="schedule__detail">
+          <div class="schedule__detail__keynote">KEYNOTE</div>
+          <div class="schedule__detail__title">
+            Play Agile like an adult: a story of mistakes from Formula1 to bank
+          </div>
+          <div class="schedule__detail__name">
+            Piergiorgio Grossi / Credem Banca
+          </div>
+          <div class="schedule__detail__location">
+            <amp-img src="img/location-bl.svg"
+                     width="16" height="16" layout="fixed">
+            </amp-img>
+            COEX Grand Ballroom
+          </div>
+          <div class="schedule__detail__more"
+               tabindex="0"
+               role="button"
+               on="tap:AMP.setState({
+                        selectedSpeaker:{
+                          name:'Piergiorgio Grossi',
+                          company:'Credem Banca',
+                          img:'/img/speaker/img-key-00.png',
+                          sImg:'/img/speaker/img-keynote-pop-00.png',
+                          track:'Keynote',
+                          time:'10:30 - 11:30',
+                          location: '코엑스 그랜드볼룸',
+                          title:'Play Agile like an Adult: a story of mistakes from Formula1 to bank',
+                          note: '4차혁명의 극변 시대, 크고 작은 다수의 기업들이 살아남기 위한 전략이나 경쟁력으로 애자일을 도입하고 있지만, 애자일을 Defined 프로세스 형태에 Doing Agile로써 도입 함에 따른 어려움을 많이 겪고들 있습니다.\n\n 이번 세션에서는 Being Agile로 기업에 애자일을 적용하는 Agile Transformation에 대한 올바른 이해를 통해 애자일이 보다 실제적인 기업의 전략이자 경쟁력으로 사용될 수 있도록 가이드 및 공유 해 보고자 합니다.',
+                          color: 'sapphire'
+                        }
+                      }),my-lightbox"></div>
+        </div>
+      </div>
+  
+      <!--Session selector-->
+      <amp-selector layout="container"
+                    on="select:AMP.setState({track: {selected: event.targetOption}})">
+        <div class="schedule__selector__agile"
+             option="agile"
+             selected>
+          <div class="schedule__selector__track">Track1</div>
+          <div class="schedule__selector__subject">Agile</div>
+        </div>
+  
+        <div class="schedule__selector__culture"
+             option="culture">
+          <div class="schedule__selector__track">Track2</div>
+          <div class="schedule__selector__subject">Culture</div>
+        </div>
+  
+        <div class="schedule__selector__human"
+             option="human">
+          <div class="schedule__selector__track">Track3</div>
+          <div class="schedule__selector__subject">Human</div>
+        </div>
+      </amp-selector>
+  
+      <!--PM Session-->
+      <amp-list
+              width="auto"
+              height="800"
+              layout="fixed-height"
+              [src]="trackInfo[track.selected]"
+              src="data/schedule_default.json">
+        <template type="amp-mustache">
+          <div class="schedule__table__row">
+            <div class="schedule__time">
+              {{start}}<br>
+                -<br>
+              {{ end}}<br>
+            </div>
+            <div class="schedule__detail">
+              <div class="schedule__detail__title">{{title}}</div>
+              <div class="schedule__detail__name">
+                {{#name}} {{name}} / {{company}} {{/name}}
+              </div>
+              <div class="schedule__detail__location"
+                   [class]="'schedule__detail__location {{color}}'">
+                <amp-img src="images/location_default.svg"
+                         [src]="'images/location_{{color}}.svg'"
+                         width="16" height="16" layout="fixed">
+                </amp-img>
+                {{location}}
+              </div>
+              <!--mustache conditional support only single line-->
+              {{#note}}
+                <div class="schedule__detail__more"
+                     tabindex="0"
+                     role="button"
+                     on="tap:AMP.setState({
+                        selectedSpeaker:{
+                          name:'{{name}}',
+                          company:'{{company}}',
+                          img:'{{img}}',
+                          sImg:'{{sImg}}',
+                          track:'{{track}}',
+                          time:'{{time}}',
+                          location: '{{location}}',
+                          title:'{{title}}',
+                          note:'{{note}}',
+                          color: '{{color}}'
+                        }
+                      }),my-lightbox"></div>
+              {{/note}}
+            </div>
+          </div>
+        </template>
+      </amp-list>
     </div>
-    <div class="footer__copyright">© 2018 Agile Korea Alliance</div>
-  </footer>
-</body>
+  
+    <!--speaker detail popup-->
+    <amp-lightbox id="my-lightbox"
+                  layout="nodisplay"
+                  scrollable>
+      <div class="speaker__ligthbox">
+        <div class="speaker__ligthbox__header">
+          <amp-img class="speaker__ligthbox__profile"
+                   width="80"
+                   height="80"
+                   layout="fixed"
+                   [alt]="name"
+                   src="images/empty_profile.png"
+                   [src]="selectedSpeaker.sImg"></amp-img>
+          <div></div>
+          <amp-img class="speaker__ligthbox__close"
+                   width="30"
+                   height="30"
+                   layout="fixed"
+                   on="tap:my-lightbox.close"
+                   role="button"
+                   src="images/ic-home-close.svg"
+                   tabindex="0">
+          </amp-img>
+        </div>
+        <div class="speaker__ligthbox__middle">
+          <div class="subtitle"
+             [class]="'subtitle ' + selectedSpeaker.color"
+             [text]="selectedSpeaker.track">
+            track
+          </div>
+          <div class="speaker__ligthbox__middle__title"
+               [text]="selectedSpeaker.title">title</div>
+          <div class="speaker__ligthbox__middle__name"
+               [text]="selectedSpeaker.name + ' / ' + selectedSpeaker.company">nobody</div>
+          <div class="speaker__ligthbox__middle__time">
+            <amp-img width="16" height="16" layout="fixed"
+                     src="images/time.svg"></amp-img>
+            <div [text]="selectedSpeaker.time">00:00~00:00</div>
+            <amp-img width="16" height="16" layout="fixed"
+                     src="images/location_default.svg"></amp-img>
+            <div [text]="selectedSpeaker.location">location</div>
+          </div>
+        </div>
+        <pre class="speaker__ligthbox__note"
+             [text]="selectedSpeaker.note">note
+        </pre>
+      </div>
+    </amp-lightbox>
+    <footer>
+      <div class="footer__link">
+        <a href="mailto:agilekoreaconference@gmail.com" target="_blank">
+          <amp-img
+            class="footer__link__mailto"
+            src="images/ic-mail.svg"
+            width="24"
+            height="24"
+            layout="fixed"
+          >
+          </amp-img>
+        </a>
+        <a
+          href="https://www.facebook.com/AgileKoreaConference/"
+          target="_blank"
+        >
+          <amp-img
+            class="footer__link__facebook"
+            src="images/ic-facebook.svg"
+            width="24"
+            height="24"
+            layout="fixed"
+          >
+          </amp-img>
+        </a>
+      </div>
+      <div class="footer__site__link">
+        <!-- <a href="faq.html">FAQ</a>
+        <pre>  |  </pre> -->
+        <a href="last-akc.html">2017 AKC</a>
+        <pre>  |  </pre>
+        <a
+          href="https://agilekoreaconference.github.io/akc2018/"
+          target="_blank"
+          >2018 AKC</a
+        >
+      </div>
+      <div class="footer__copyright">© 2019 Agile Korea Alliance</div>
+    </footer>
+  </body>
 </html>

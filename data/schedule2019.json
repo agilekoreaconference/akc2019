@@ -1,54 +1,51 @@
 {
-  "items": [
+  "agile": [
     {
-      "name": "Piergiorgio Grossi",
-      "company": "Credem Banca",
-      "img": "/img/speaker/img-key-00.png",
-      "sImg": "/img/speaker/img-keynote-pop-00.png",
-      "track": "Keynote",
-      "time": "10:40 - 12:00",
-      "location": "agile",
-      "color": "agile",
-      "title": "Play Agile like an Adult: a story of mistakes from Formula1 to bank",
-      "note": "4차혁명의 극변 시대, 크고 작은 다수의 기업들이 살아남기 위한 전략이나 경쟁력으로 애자일을 도입하고 있지만, 애자일을 Defined 프로세스 형태에 Doing Agile로써 도입 함에 따른 어려움을 많이 겪고들 있습니다.\n\n 이번 세션에서는 Being Agile로 기업에 애자일을 적용하는 Agile Transformation에 대한 올바른 이해를 통해 애자일이 보다 실제적인 기업의 전략이자 경쟁력으로 사용될 수 있도록 가이드 및 공유 해 보고자 합니다."
-    },
-    {
+      "start": "13 : 00",
+      "end": "13 : 50",
+      "title": "AI 프로젝트에 Agile을 도입했더니 나만 찌질거리는 것 처럼 느껴졌던 5가지 이유",
       "name": "도경태",
       "company": "네이버",
-      "img": "/img/speaker/img-key-00.png",
-      "sImg": "/img/speaker/img-keynote-pop-00.png",
-      "track": "Agile",
+      "img": "/img/speaker/img-key-03.png",
+      "sImg": "/img/speaker/img-keynote-pop-03.png",
+      "track": "Track 1 : Agile",
       "time": "13:00 - 13:50",
       "location": "agile",
       "color": "agile",
-      "title": "AI 프로젝트에 Agile을 도입했더니 나만 찌질거리는 것 처럼 느껴졌던 5가지 이유",
       "note": "도발편\n1. 도저히 함께 할 수 없을 것만 같은 프로젝트 부적응자 - 연구자들\n2. 칸반, 스프린트 다 부질 없다.\n3. Whole Team 씨나락 까먹는 소리하고 앉아있다\n4. 점진적인 개선보다 중요한  SOTA\n5. UX는 어떻게 측정하나요\n\n진정편\n1. 연구자들과 친해지기\n2. 스크럼반으로 대강 시작부터 하자\n3. 잘난 사람은 잘난대로 살고.\n4. SOTA 로 얻을 수 있는 프로젝트의 이득\n5. UX를 측정하는 법. 제품으로 설득해야 하고 사용자의 피드백은 연구자도 좋아한다.\n\n결론\nA.I. 프로젝트에 애자일을 훌륭하게 적용하는 방법\nB.P.로 부터 듣는다.\n"
     },
     {
+      "start": "14 : 00",
+      "end": "14 : 50",
+      "title": "Large Enterprise Agile Transformation - Ciscos Journey",
       "name": "Pete Rim",
       "company": "Cisco Systems",
-      "img": "/img/speaker/img-key-00.png",
-      "sImg": "/img/speaker/img-keynote-pop-00.png",
+      "img": "/img/speaker/img-key-01.png",
+      "sImg": "/img/speaker/img-keynote-pop-01.png",
       "track": "Agile",
-      "time": "14:00 - 14:50",
+      "time": "14:00-14:50",
       "location": "agile",
       "color": "agile",
-      "title": "Large Enterprise Agile Transformation - Cisco's Journey",
       "note": "The audience will walk away with the following realization after participating in the Ciscos Agile Journey discussion:\n\n- Simple roadmap on all the cross functional items to account for a multinational corporate agile transformation\n- An example of enterprise organizational setup to kick-start the journey\n- A list of items In-scope for corporate agile transformation – tools, process, and people\n- Real examples of \"pains\" experienced in the journey over the last 3 years\n- Realistic expectation on Agile Industry support and resources, or lack thereof, for a large scale transformation\n- \"Art of what’s possible\" in large corporate agile transformation, not just \"doing\" agile but “being” agile\n\nCisco is changing the way Cisco does business through Continuous Delivery and Scaled Scrum. We would like to share how we have moved a $49B enterprise of 25,000 engineers across the globe from 100% waterfall based delivery to scrum delivery in a massive scale.\n\nToday, a strong partnership with the business and increased collaboration is driving delivery of new business outcomes faster. However, our journey started over 5 years back and was a gradual, and still on-going, evolution of mobilizing the agile transformation, strategically and tactically. We started with a strong executive leadership’s desire on the recognition of inevitable need for a change in the way we enabled business capabilities, from waterfall based 6 to 9 months delivery cycles to agile based weekly and monthly delivery capabilities. We experienced our share of challenges in just getting started to organically creating the critical core of passionate agile leaders throughout the enterprise.\n\nLet us share how we organized, created the momentum, and overcame various challenges along the way, from getting beyond the long standing cultural resistance to a practical matter of scaling scrum from ground zero, from planning to executing, across the enterprise.\n\n"
     },
     {
+      "start": "15 : 00",
+      "end": "15 : 50",
+      "title": "Agile 배워서 남줄Lab (부제:SI에서 Agile로 살아남기)",
       "name": "심상준",
       "company": "SK C&C",
-      "img": "/img/speaker/img-key-00.png",
-      "sImg": "/img/speaker/img-keynote-pop-00.png",
+      "img": "/img/speaker/img-key-02.png",
+      "sImg": "/img/speaker/img-keynote-pop-02.png",
       "track": "Agile",
       "time": "15:00 - 15:50",
       "location": "agile",
       "color": "agile",
-      "title": "Agile 배워서 남줄Lab (부제:SI에서 Agile로 살아남기)",
       "note": "SI에서 Agile은 무엇보다 고객사/협력사를 포함한 다양한 이해관계자들을 변화시키고 설득시켜야 합니다.\n제대로된 PO역할 수행을 위한 고객사 설득하기, 감리사와 밀당하기, Scrum Master는 누가?, 내부직원 육성하기 등 SI에서 Agile을 성공시키기 위한 다양한 노하우를 공개합니다."
     },
     {
+      "start": "16 : 00",
+      "end": "16 : 50",
+      "title": "오렌지라이프의 Agile 조직문화 내재화 사례",
       "name": "천진원",
       "company": "오렌지라이프",
       "img": "/img/speaker/img-key-00.png",
@@ -57,10 +54,22 @@
       "time": "16:00 - 16:50",
       "location": "agile",
       "color": "agile",
-      "title": "오렌지라이프의 Agile 조직문화 내재화 사례",
       "note": "* 개요: 보수적인 보험금융권에서 혁신적인 방식으로 Agile Transformation에 성공한 오렌지라이프의 여정을 소개합니다. 조직문화로서 Agile을 사례 위주로 설명하며 경험을 통해 얻은 Agile 도입의 고려사항도 공유합니다.\n\n* 목차\n- 오렌지라이프의 Agile 도입 배경 및 핵심철학\n- 오렌지라이프에 적용된 Agile 모델 및 업무방식 상세\n- Agile Transformation 이후 조직내 주요 변화사항\n- 사례중심의 Agile 도입 고려사항\n- Q&A\n"
     },
     {
+      "start": "17 : 00",
+      "end": "17 : 50",
+      "title": "패널 토의 A",
+      "name": "",
+      "location": "agile",
+      "color": "agile"
+    }
+  ],
+  "culture": [
+    {
+      "start": "13 : 00",
+      "end": "13 : 50",
+      "title": "삼성전자, 애자일조직으로 변화를 위한 첫 번째 노력",
       "name": "김영진",
       "company": "삼성전자",
       "img": "/img/speaker/img-key-04.png",
@@ -69,10 +78,12 @@
       "time": "13:00 - 13:50",
       "location": "culture",
       "color": "culture",
-      "title": "삼성전자, 애자일조직으로 변화를 위한 첫 번째 노력",
       "note": "삼성전자는 소규모 애자일팀을 위한 노력을 해왔으며, 이제는 대규모 애자일 조직으로 변화를 위한 첫 번째 노력을 시작하였습니다. 애자일 조직으로 변화를 위한 여정을 소개하며, 그 과정에서 코치로서 겪은 어려움, 맛 본 보람 그리고 조직의 변화에 대한 이야기를 나누고자 합니다.\n\n- 변화 에이전트 : 애자일코치의 새로운 이름과 역할\n- 애자일팀에서 애자일조직으로 : 애자일팀의 한계와 애자일 조직의 필요성\n- 애자일 조직으로 변화 노력 : 조직 진단, 조직 설계, 조직 시스템 설계 및 운영 사례\n- 회고 : 애자일 조직 적용 회고"
     },
     {
+      "start": "14 : 00",
+      "end": "14 : 50",
+      "title": "How we challenge to change Healthcare (Challenge yourself to change Healthcare)",
       "name": "김효 & 박성남",
       "company": "삼성전자",
       "img": "/img/speaker/img-key-06.png",
@@ -81,10 +92,12 @@
       "time": "14:00 - 14:50",
       "location": "culture",
       "color": "culture",
-      "title": "How we challenge to change Healthcare (Challenge yourself to change Healthcare)",
-      "note": "개발 기간이 몇년씩 되는 프로젝트, 강산이 변하는 시간에 가까운 프로젝트의 유지보수, 빠르게 변하는 고객의 눈높이와 시장의 변화 그리고 점점 더 높아지는 각 국가의 규제들 !!\n고객에게 가치있는 제품을 만들기 위해, 우리는 변화하고 있습니다.\n전통적이고 보수적인 개발방법론을 주로 따르고, 안전함을 중심으로하는 의료기기 개발이 어떻게 시대의 변화에 도전하고 있는지 공유 합니다."
+      "note": "많은 기술 회사들이 기술 개발 자체에만 초점을 두고, 개발 활동 이외의 업무는 중요하지 않다고 보는 경향이 있습니다.\n그러나 관리자부터 개발자까지 모두가 애자일하게 개발하기 위해서는 프로젝트의 큰 그림을 그리고 이를 애자일 포트폴리오로 관리하는 것부터 세부적으로는 코드와 유닛 테스트까지 통합적으로 접근해야 합니다.\nLG전자 HE 연구소 개발팀 사례를 통해, 전체를 보는 것, 한 프로젝트를 하는 사람들이 왜 목표를 공유해야 하는지, 그것이 프로젝트 성공에 얼마나 중요한지에 대해서 공유합니다."
     },
     {
+      "start": "15 : 00",
+      "end": "15 : 50",
+      "title": "전략적 민첩성을 높이는 War Game Workshop",
       "name": "채홍미",
       "company": "인피플컨설팅",
       "img": "/img/speaker/img-key-09.png",
@@ -93,10 +106,12 @@
       "time": "15:00 - 15:50",
       "location": "culture",
       "color": "culture",
-      "title": "전략적 민첩성을 높이는 War Game Workshop",
-      "note": "워 게임 워크숍은 전략적 민첩성을 높이는 프로그램입니다.\n기업의 Think.Build.Operate 의 벨류 체인 중 사업의 전략적 방향을 정하는 'Think' 영역에서 어떻게하면 유연하고 민첩한 전략을 도출하고 실행할지를 확인할 수 있습니다."
+      "note": "워 게임 워크숍은 전략적 민첩성을 높이는 프로그램입니다.\n기업의 Think.Build.Operate 의 벨류 체인 중 사업의 전략적 방향을 정하는 Think 영역에서 어떻게하면 유연하고 민첩한 전략을 도출하고 실행할지를 확인할 수 있습니다."
     },
     {
+      "start": "16 : 00",
+      "end": "16 : 50",
+      "title": "How agile waxes and wanes in a project",
       "name": "양승호",
       "company": "삼성 SDS",
       "img": "/img/speaker/img-key-10.png",
@@ -105,10 +120,22 @@
       "time": "16:00 - 16:50",
       "location": "culture",
       "color": "culture",
-      "title": "How agile waxes and wanes in a project",
       "note": "Agile 적용 프로젝트 수행 경험 공유 및 프로젝트 수행 시 사용했던 주요 기법 소개.\n개발자의 입장에서 바라본 각 단계별 주요 Lessons & learned 공유를 통한 Agile 프로젝트 수행 시 고려 할점 소개 및 제안.\n\n 목차(안)\n- 본인 소개 및 수행 프로젝트 소개\n- 프로젝트 시작과 종료까지 각 단계별 적용했던  Agile 기법들\n- 각 단계별 lessons & learned\n- 프로젝트 수행시 도움되는 Agile 기법 제안\n- Q&A"
     },
     {
+      "start": "17 : 00",
+      "end": "17 : 50",
+      "title": "패널 토의 B",
+      "name": "",
+      "location": "culture",
+      "color": "culture"
+    }
+  ],
+  "human": [
+    {
+      "start": "13 : 00",
+      "end": "13 : 50",
+      "title": "Design Thinking for Innovation",
       "name": "박진희",
       "company": "삼성 SDS",
       "img": "/img/speaker/img-key-05.png",
@@ -117,10 +144,12 @@
       "time": "13:00 - 13:50",
       "location": "human",
       "color": "human",
-      "title": "Design Thinking for Innovation",
       "note": "Agile Korea Conference에서 소개하는 Design Thinking (입문자를 위한)\nDesign Thinking에 대한 이해를 바탕으로 역할과 의미를 함께 생각해보는 시간(을 가집니다)\n아! Design Thinking 은 이런 것이군요!"
     },
     {
+      "start": "14 : 00",
+      "end": "14 : 50",
+      "title": "음식 맛처럼 다양한, 제품 책임자들과의 컬러풀한 경험",
       "name": "박현철",
       "company": "건국대학교",
       "img": "/img/speaker/img-key-07.png",
@@ -129,10 +158,12 @@
       "time": "14:00 - 14:50",
       "location": "human",
       "color": "human",
-      "title": "음식 맛처럼 다양한, 제품 책임자들과의 컬러풀한 경험",
       "note": "뒷골목의 간단한 음식에서부터 프랑스에서도 25개밖에 없는 3스타 요리까지 음식은 너무도 다양하다. 그런데, 요리에서 원재료의 신선함과 풍미를 살리는 일은 중요하다. 이것은 비즈니스 특성이며, 도메인 전문가 영역이다. 차별화된 음식처럼, 차별화된 제품. 어떻게 만들 수 있을까?\n그런데, 맛깔스런 음식이라는 것을 먹어보지도 못한 채 좋은 요리를 만들 수 있을까? 다양한 소프트웨어 특성에 따른 제품 책임자들과의 경험을 살펴보면, 좀 더 그들에게 다가설 수 있고, 그만큼 더 좋은 제품을 함께 만들 수도 있지 않을까?\n돈 안드는 프로토타이핑에서부터, 명확한 애플리케이션, 복합적인 솔루션, 차세대 프로젝트처럼 규모 있는 시스템 구축, 특정 산업계의 비즈니스를 포괄하는 비즈니스 프레임워크까지 다양한 소프트웨어 제품 군들을 살펴보자.\n다양한 소프트웨어 제품 군들에는 제품보다 더 다양한 제품 책임자들이 존재한다. 총천연색의 다양한 체취를 풍기는 여러 제품 책임자 형태를 살펴보면서, 제품 책임자에 대한 통찰을 가져보자! 그리고, 가치 있는 제품과 성공적인 프로젝트 수행이라는 다채로운 맛을 함께 만끽해보자!\n\n[목차]\n0. 시작하면서\n1. 음식에서 중요한 것 – 제품 책임자를 살펴보기 전에 알아 둘 사항\n2. 마트 가서 공짜로 시식해보는 요리 – 해커톤에서 처음 만난 제품 책임자들과의 아이디어 프로토타이핑\n3. 간단한 단품 요리 – 명확하고 구체적인 단일 사용자이자 제품 책임자의 요구사항 관리\n4. 복잡한 한 상 요리 – 다양하고 복잡하게 얽힌 솔루션과 다양한 사용자와 제품 책임자들간의 협업 및 의사소통\n5. 프랑스 3스타 최고 레스또랑은 25군데 – 수 십 개 기업이 참여하는 차세대 프로젝트에서 고객사 제품 책임자들의 리더십\n6. 동네 잔치 – 국내 7개, 해외 1개 고객사들이 참여하여 함께 만드는 비즈니스 프레임워크를 둘러싼 제품 책임자들의 사용자 경험\n7. 결론"
     },
     {
+      "start": "15 : 00",
+      "end": "15 : 50",
+      "title": "애자일 코치로의 축적의 시간",
       "name": "고종범",
       "company": "LINE+",
       "img": "/img/speaker/img-key-08.png",
@@ -141,10 +172,12 @@
       "time": "15:00 - 15:50",
       "location": "human",
       "color": "human",
-      "title": "애자일 코치로의 축적의 시간",
       "note": "애자일을 만나고 애자일 코치가 되고 성장하는 과정에서 시도한 것과 얻은 통찰의 관한 이야기를 한다.\n애자일 개발 방법론으로 접했던 것에서 애자일 도입을 시도하고, 애자일 코치가 되고, 애자일 코치 양성 과정을 수행했던 이야기, 그리고 조직 문화와 조직 변화에 대하여 관심을 갖고 도전하게 된 사연에 대하여 이야기를 한다.\n1) 애자일의 경험 - XP, Scrum\n2) 애자일 개발 방법론으로의 도입\n3) 애자일 코치로의 발돋움\n4) 애자일을 넘어서"
     },
     {
+      "start": "16 : 00",
+      "end": "16 : 50",
+      "title": "Agile의 멋진 파트너, OKR 이해하기",
       "name": "강정욱",
       "company": "버즈빌",
       "img": "/img/speaker/img-key-11.png",
@@ -153,10 +186,12 @@
       "time": "16:00 - 16:50",
       "location": "human",
       "color": "human",
-      "title": "Agile의 멋진 파트너, OKR 이해하기",
       "note": "최근 Agile 만큼이나 OKR에 대한 관심이 뜨겁습니다. 구글의 성공을 통해 널리 알려진 성과 관리 방법론이기에, 이를 도입하려는 조직도 늘어나고 있습니다. 하지만 막상 OKR이 지향하는 철학과 가치가 무엇인지, 실제 도입 시 어떤 점을 염두해야 하는지는 많이 알려지지 않았습니다.\n이번 세션에서는 OKR이 품고 있는 철학과 Aglie과의 연관성, 그리고 도입 시 던져야 할 질문에 대해 함께 고민하고자 합니다. OKR과 Agile, 그리고 조직 문화에 관심있는 분들의 많은 관심 부탁드립니다."
     },
     {
+      "start": "17 : 00",
+      "end": "17 : 50",
+      "title": "Agile, Sociocracy & Facilitation",
       "name": "주현희",
       "company": "링크컨설팅",
       "img": "/img/speaker/img-key-12.png",
@@ -165,7 +200,6 @@
       "time": "17:00 - 17:50",
       "location": "human",
       "color": "human",
-      "title": "Agile, Sociocracy & Facilitation",
       "note": "민첩하고 지속가능한 조직 개발 이론 sociocracy, 애자일과 비슷한 철학, 그러나 완결적인 조직개발 이론이라는 면에서 애자일과 다른 sociocracy 그리고 소시오크라시와 애자일에 날개를 달아줄 퍼실리테이션, 세 가지 개념의 관계를 통찰함.\n\n목차:\n- “socio + cracy” vs “demo + cracy”\n- Sociocracy, 협업의 DNA\n- 자율경영의 7가지 톱니바퀴"
     }
   ]
