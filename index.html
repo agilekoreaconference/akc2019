@@ -87,7 +87,7 @@
             "name": "Agile Korea Conference 2019",
             "startDate": "2019-10-18T09:00",
             "endDate": "2019-10-18T19:00",
-            "description": "Agile, Culture, Human - Be The Change. 2019.10.18 09 코엑스 그랜드볼룸",
+            "description": "Agile, Culture, Human - Be The Change. 2019.10.18 FRI 코엑스 그랜드볼룸",
             "performer": {
                 "@type": "PerformingGroup",
                 "name": "AgileKoreaConference"
@@ -390,25 +390,6 @@
             color: var(--azure);
         }
 
-        .link__section {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 40px;
-            position: relative;
-        }
-
-        .link__section > a {
-            width: 240px;
-            height: 22px;
-            padding: 20px 0px;
-            background-image: linear-gradient(to right, #1accbf, #008cfd);
-            font-size: 18px;
-            color: white;
-            text-decoration: none;
-            text-align: center;
-            z-index: 2;
-        }
-
         @media (min-width: 1024px) {
             .slogan__section {
                 display: flex;
@@ -548,25 +529,6 @@
                 text-decoration: none;
                 color: var(--azure);
             }
-
-            .link__section {
-                display: flex;
-                justify-content: center;
-                margin-bottom: 40px;
-                position: relative;
-            }
-
-            .link__section > a {
-                width: 240px;
-                height: 22px;
-                padding: 20px 0px;
-                background-image: linear-gradient(to right, #1accbf, #008cfd);
-                font-size: 18px;
-                color: white;
-                text-decoration: none;
-                text-align: center;
-                z-index: 2;
-            }
         }
 
         .session__list {
@@ -574,14 +536,14 @@
             flex-direction: column;
             align-items: center;
             margin: 0px 160px 0px 160px;
-            max-height: 704px;
+            max-height: 1058px;
         }
 
         amp-list {
             /* width: 100vw; */
             /* width: 960px; */
             width: 320px;
-            max-height: 704px;
+            max-height: 1058px;
         }
 
         div[role="list"] {
@@ -596,22 +558,21 @@
                 flex-direction: column;
                 align-items: center;
                 margin: 0px 160px 0px 160px;
-                max-height: 704px;
+                max-height: 1200px;
             }
 
             amp-list {
-                width: 320px;
-                max-height: 1056px;
-                /* width: 1038px; */
+                /* width: 320px; */
+                height: 1200px;
+                width: 1024px;
             }
 
             div[role="list"] {
                 flex-wrap: wrap;
                 /* overflow: hidden; */
-                max-height: 1056px;
-                /* height: 336px; */
-                /* width: 1038px; */
-                /* width: 304px; */
+                /* max-height: 1056px; */
+                height: 1200px;
+                width: 1024px;
             }
         }
 
@@ -763,6 +724,150 @@
             white-space: pre-wrap;
         }
 
+        .link__section {
+            display: flex;
+            justify-content: center;
+            margin-top: 64px;
+            margin-bottom: 112px;
+            position: relative;
+
+            visibility: hidden;
+        }
+
+        .link__section > a {
+            width: 304px;
+            height: 24px;
+            font-size: 20px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #ffffff;
+            background-color: var(--sapphire);
+            text-decoration: none;
+            text-align: center;
+            padding: 20px 0px;
+        }
+
+        .line__section {
+            padding: 0px;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .workshop__section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0px 0px 75px 0px;
+        }
+
+        .workshop__section__description {
+            margin: 10px 4px;
+            height: 108px;
+            font-size: 18px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.78;
+            letter-spacing: normal;
+            text-align: center;
+            color: var(--dark);
+        }
+
+        .workshop__class__list {
+            width: 340px;
+            height: 816px;
+            justify-content: center;
+            align-items: center;
+            margin: 47px;
+            overflow:auto;
+            border: 1px solid #ffffff;
+        }
+
+        .workshop__class {
+            display:block;
+            width: 304px;
+            height: 256px;
+            margin: 8px;
+            box-shadow: 0 2px 20px 0 rgba(18, 17, 73, 0.2);
+            background-color: #ffffff;
+            border: 1px solid #ffffff;
+        }
+
+        .workshop__class__title {
+            height: 52px;
+            font-size: 24px;
+            font-weight: bold;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            margin: 14px 20px 24px 20px;
+            border: 0px solid;
+            letter-spacing: -0.4px;
+            color: var(--sapphire);
+        }
+
+        .workshop__class__text {
+            width: 264px;
+            height: 27px;
+            opacity: 0.6;
+            font-size: 18px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            margin: 4px 20px;
+            letter-spacing: -0.3px;
+            color: var(--dark);
+        }
+
+        .workshop__link__section {
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+
+        .workshop__link__section > a {
+            width: 304px;
+            height: 24px;
+            font-size: 20px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #ffffff;
+            background-color: var(--sapphire);
+            text-decoration: none;
+            text-align: center;
+            padding: 20px 0px 20px 0px;
+            margin-top: 10px;
+        }
+
+        @media (min-width: 1024px) {
+            .workshop__class__list {
+                width: 100vw;
+                height: 272px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 47px;
+            }
+
+            .workshop__class {
+                /* display: inline; */
+                width: 304px;
+                height: 256px;
+                margin: 8px;
+                box-shadow: 0 2px 20px 0 rgba(18, 17, 73, 0.2);
+                background-color: #ffffff;
+            }
+        }
+
         .location__section {
             display: flex;
             flex-direction: column;
@@ -807,7 +912,6 @@
             justify-content: center;
             align-items: center;
             background: white;
-            border-top: 1px solid #dee2e6;
             margin-bottom: 89px;
         }
 
@@ -843,7 +947,6 @@
                 justify-content: center;
                 align-items: center;
                 background: white;
-                border-top: 1px solid #dee2e6;
                 margin-bottom: 80px;
             }
 
@@ -998,16 +1101,20 @@
             font-size: 12px;
         }
 
-        .pascal {
+        .agile {
             color: #0674d8
         }
 
-        .magellan {
-            color: #00a6c5
+        .culture {
+            color: #00b0e8
         }
 
-        .multi {
-            color: #06ce83
+        .human {
+            color: #1dd245;
+        }
+
+        .atlassian {
+            color: #0050d4;
         }
     </style>
 </head>
@@ -1155,7 +1262,7 @@
     </amp-img>
     <div class="section__title">Session</div>
     <amp-list width="304"
-        height="352"
+        height="336"
         layout="responsive"
         src="data/speakers.json">
         <template type="amp-mustache">
@@ -1181,7 +1288,8 @@
                 <amp-img width="304"
                     height="160"
                     alt="{{name}}"
-                    src="{{img}}"></amp-img>
+                    src="{{img}}">
+                </amp-img>
                 <div class="session__list__card__note">
                     <div class="subtitle" [class]="'subtitle {{color}}'">{{track}}</div>
                     <div class="session__list__card__note__subject">{{title}}</div>
@@ -1244,19 +1352,58 @@
       </pre>
     </div>
 </amp-lightbox>
-<!--
+
 <div class="link__section">
     <a href="schedule.html">스케줄 보기</a>
-    <amp-img class="session__background"
-             amp-fx="parallax"
-             data-parallax-factor="1.1"
-             src="images/main-session-bg.png"
-             layout="fixed"
-             width="175"
-             height="220">
-    </amp-img>
 </div>
--->
+
+<div class="line__section"></div>
+
+<!-- <div class="workshop__section">
+    <amp-img class="section__bullet"
+        width="12"
+        height="12"
+        layout="fixed"
+        src="img/img-bullet-title.svg">
+    </amp-img>
+    <div class="section__title">WORKSHOP</div>
+    <p class="workshop__section__description">
+        2019 AKC는 워크샵을 포함한 티켓을 별도 판매할 예정입니다.<br/>
+        자세한 내용은 Festa 신청 링크에서 확인해주세요.
+    </p>
+
+    <div class="workshop__class__list">
+        <div class="workshop__class">
+            <div class="workshop__class__title">Learning agile with LEGO (Basic)</div>
+            <div class="workshop__class__text">일시 : 10.14 월 10:00 ~ 18:00</div>
+            <div class="workshop__class__text">참가비 : 280,000원(컨퍼런스 포함)</div>
+            <div class="workshop__class__text">모집인원 : 20 ~ 24명</div>
+            <div class="workshop__link__section">
+                <a href="https://festa.io/events/426">워크숍 신청하기</a>
+            </div>
+        </div>
+        <div class="workshop__class">
+            <div class="workshop__class__title">Collaborative Agile Planning</div>
+            <div class="workshop__class__text">일시 : 10.15 화 13:00 ~ 16:00</div>
+            <div class="workshop__class__text">참가비 : 180,000원(컨퍼런스 포함)</div>
+            <div class="workshop__class__text">모집인원 : 25 ~ 32명</div>
+            <div class="workshop__link__section">
+                <a href="https://festa.io/events/426">워크숍 신청하기</a>
+            </div>
+        </div>
+        <div class="workshop__class">
+            <div class="workshop__class__title">Leading SAFe</div>
+            <div class="workshop__class__text">일시 : 10.16,17 수,목 09:00 ~ 17:00</div>
+            <div class="workshop__class__text">참가비 : 1,500,000원(컨퍼런스 포함)</div>
+            <div class="workshop__class__text">모집인원 : 12 ~ 30명</div>
+            <div class="workshop__link__section">
+                <a href="https://festa.io/events/426festa">워크숍 신청하기</a>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<div class="line__section"></div>
 
 <div class="sponsor__section">
     <amp-img class="section__bullet"
@@ -1266,7 +1413,6 @@
         src="img/img-bullet-title.svg">
     </amp-img>
     <div class="section__title">Sponsors & Partners</div>
-
     <div class="sponsor__title">Title Sponsor</div>
     <div class="sponsor__logos">
         <a href="https://www.atlassian.com/ko" target="_blank">
@@ -1310,6 +1456,17 @@
                 height="96"
                 layout="fixed"
                 src="img/sponsor/img-spon-ica.png">
+            </amp-img>
+        </a>
+    </div>
+
+    <div class="sponsor__title">Graphic Facilitation Partner</div>
+    <div class="sponsor__logos">
+        <a href="http://graphicjam.co.kr/" target="_blank">
+            <amp-img width="224"
+                height="96"
+                layout="fixed"
+                src="img/sponsor/img-spon-gjam.png">
             </amp-img>
         </a>
     </div>
