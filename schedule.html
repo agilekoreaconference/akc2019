@@ -159,6 +159,7 @@
         --dark: #232b31;
         --sapphire: #2e2b9b;
         --azure: #00b0e8;
+        --shamrock-green: #1dd245;
       }
 
       body {
@@ -379,8 +380,16 @@
         grid-template-columns: 65px 1fr;
         align-items: baseline;
         padding: 20px 10px;
+      }
+
+      .schedule__table__row_border {
         border-bottom: 1px solid #dee2e6;
       }
+
+      .background_grey {
+        background-color: #f9fafc;
+      }
+
       .schedule__time {
         font-size: 14px;
         font-weight: bold;
@@ -411,12 +420,17 @@
       .schedule__detail__location {
         display: flex;
         align-items: center;
-        opacity: 0.5;
+        opacity: 1;
         font-size: 14px;
         letter-spacing: -0.3px;
         color: #232b31;
         margin-top: 10px;
       }
+
+      .schedule__detail__image {
+        margin: 0px 6px;
+      }
+
       .schedule__detail__more {
         position: absolute;
         top: 0;
@@ -487,7 +501,7 @@
         outline: none;
       }
       amp-selector .schedule__selector__human[option][selected] {
-        background: #1dd245;
+        background: var(--shamrock-green);
         color: #ffffff;
         outline: none;
       }
@@ -850,7 +864,7 @@
     <!-- schedule table -->
   <div class="schedule__table">
       <!--AM Session-->
-      <div class="schedule__table__row">
+      <div class="schedule__table__row schedule__table__row_border">
         <div class="schedule__time">
           09 : 00<br>
           -<br>
@@ -862,11 +876,11 @@
             <amp-img src="img/location-bl.svg"
                       width="16" height="16" layout="fixed">
             </amp-img>
-            COEX Grand Ballroom
+            COEX Grand Ballroom 입구
           </div>
         </div>
       </div>  
-      <div class="schedule__table__row">
+      <div class="schedule__table__row schedule__table__row_border">
         <div class="schedule__time">
           09 : 10<br>
           -<br>
@@ -874,15 +888,9 @@
         </div>
         <div class="schedule__detail">
           <div class="schedule__detail__title">Lean Coffee</div>
-          <div class="schedule__detail__location">
-            <amp-img src="img/location-bl.svg"
-                      width="16" height="16" layout="fixed">
-            </amp-img>
-            COEX Grand Ballroom
-          </div>
         </div>
       </div>
-      <div class="schedule__table__row">
+      <div class="schedule__table__row schedule__table__row_border">
         <div class="schedule__time">
           10 : 30<br>
           -<br>
@@ -890,17 +898,9 @@
         </div>
         <div class="schedule__detail">
           <div class="schedule__detail__title">Opening</div>
-          <div class="schedule__detail__location">
-            <amp-img src="img/location-bl.svg"
-                      width="16" height="16" layout="fixed">
-            </amp-img>
-            COEX Grand Ballroom
-          </div>
         </div>
       </div>
-      
-  
-      <div class="schedule__table__row">
+      <div class="schedule__table__row schedule__table__row_border">
         <div class="schedule__time">
           10 : 40<br>
           -<br>
@@ -914,11 +914,11 @@
           <div class="schedule__detail__name">
             Piergiorgio Grossi / Credem Banca
           </div>
-          <div class="schedule__detail__location">
-            <amp-img src="img/location-bl.svg"
+          <div class="schedule__detail__location agile">
+            <amp-img class="schedule__detail__image" src="img/shc-trans.svg"
                      width="16" height="16" layout="fixed">
             </amp-img>
-            COEX Grand Ballroom
+            영한 통역 지원
           </div>
           <div class="schedule__detail__more"
                tabindex="0"
@@ -937,6 +937,16 @@
                           color: 'sapphire'
                         }
                       }),my-lightbox"></div>
+        </div>
+      </div>
+      <div class="schedule__table__row schedule__table__row_border background_grey">
+        <div class="schedule__time">
+          12 : 00<br>
+          -<br>
+          13 : 00<br>
+        </div>
+        <div class="schedule__detail">
+          <div class="schedule__detail__title">BREAK</div>
         </div>
       </div>
   
@@ -981,10 +991,10 @@
               [src]="trackInfo[track.selected]"
               src="data/schedule_default.json">
         <template type="amp-mustache">
-          <div class="schedule__table__row">
+          <div class="schedule__table__row {{tableBorder}}">
             <div class="schedule__time">
               {{start}}<br>
-                -<br>
+              {{middle}}<br>
               {{ end}}<br>
             </div>
             <div class="schedule__detail">
@@ -994,8 +1004,8 @@
               </div>
               <div class="schedule__detail__location"
                    [class]="'schedule__detail__location {{color}}'">
-                <amp-img src="images/location_default.svg"
-                         [src]="'img/location-{{color}}.svg'"
+                <amp-img class="schedule__detail__image" src="images/location_default.svg"
+                         [src]="'img/{{descriptionIcon}}'"
                          width="16" height="16" layout="fixed">
                 </amp-img>
                 {{location}}
@@ -1014,9 +1024,10 @@
                           track:'{{track}}',
                           time:'{{time}}',
                           location: '{{location}}',
+                          descriptionIcon: '{{descriptionIcon}}',
                           title:'{{title}}',
                           note:'{{note}}',
-                          color: '{{color}}'
+                          color:'{{color}}'
                         }
                       }),my-lightbox"></div>
               {{/note}}
@@ -1065,7 +1076,7 @@
                      src="images/time.svg"></amp-img>
             <div [text]="selectedSpeaker.time">00:00~00:00</div>
             <amp-img width="16" height="16" layout="fixed"
-                     src="images/location_default.svg"></amp-img>
+                     src="images/location_default.svg" [src]="'img/' + selectedSpeaker.descriptionIcon"></amp-img>
             <div [text]="selectedSpeaker.location">location</div>
           </div>
         </div>
