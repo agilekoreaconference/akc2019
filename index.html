@@ -777,7 +777,7 @@
 
         .workshop__class__list {
             width: 340px;
-            height: 816px;
+            height: 1152px;
             justify-content: center;
             align-items: center;
             margin: 47px;
@@ -788,7 +788,7 @@
         .workshop__class {
             display:block;
             width: 304px;
-            height: 256px;
+            height: 368px;
             margin: 8px;
             box-shadow: 0 2px 20px 0 rgba(18, 17, 73, 0.2);
             background-color: #ffffff;
@@ -796,40 +796,58 @@
         }
 
         .workshop__class__title {
-            height: 52px;
+            height: 80px;
             font-size: 24px;
             font-weight: bold;
             font-style: normal;
             font-stretch: normal;
             line-height: normal;
-            margin: 14px 20px 24px 20px;
-            border: 0px solid;
+            line-height: 1.67;
             letter-spacing: -0.4px;
             color: var(--sapphire);
+            margin: 22px 30px 18px 30px;
+            border: 0px solid #ffffff;
         }
 
-        .workshop__class__text {
-            width: 264px;
+        .workshop__class__content__title  {
+            width: 62px;
             height: 27px;
+            margin: 0px 30px 4px 30px;
             opacity: 0.6;
+            /* font-family: AppleSDGothicNeo; */
             font-size: 18px;
             font-weight: normal;
             font-style: normal;
             font-stretch: normal;
             line-height: normal;
-            margin: 4px 20px;
+            letter-spacing: -0.3px;
+            color: var(--dark);
+        }
+
+        .workshop__class__text {
+            width: 264px;
+            height: 27px;
+            margin: 0px 30px 22px 30px;
+            font-size: 18px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
             letter-spacing: -0.3px;
             color: var(--dark);
         }
 
         .workshop__link__section {
+            width: 264px;
+            height: 64px;
+            padding: 0px 20px 20px 20px;
             display: flex;
             justify-content: center;
             position: relative;
         }
 
         .workshop__link__section > a {
-            width: 304px;
+            width: 264px;
             height: 24px;
             font-size: 20px;
             font-weight: normal;
@@ -842,14 +860,13 @@
             background-color: var(--sapphire);
             text-decoration: none;
             text-align: center;
-            padding: 20px 0px 20px 0px;
-            margin-top: 10px;
+            padding: 20px;
         }
 
         @media (min-width: 1024px) {
             .workshop__class__list {
                 width: 100vw;
-                height: 272px;
+                height: 384px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -859,7 +876,7 @@
             .workshop__class {
                 /* display: inline; */
                 width: 304px;
-                height: 256px;
+                height: 368px;
                 margin: 8px;
                 box-shadow: 0 2px 20px 0 rgba(18, 17, 73, 0.2);
                 background-color: #ffffff;
@@ -1373,27 +1390,30 @@
     <div class="workshop__class__list">
         <div class="workshop__class">
             <div class="workshop__class__title">Learning agile with LEGO (Basic)</div>
-            <div class="workshop__class__text">일시 : 10.14 월 10:00 ~ 18:00</div>
-            <div class="workshop__class__text">참가비 : 280,000원(컨퍼런스 포함)</div>
-            <div class="workshop__class__text">모집인원 : 20 ~ 24명</div>
+            <div class="workshop__class__content__title">일시</div>
+            <div class="workshop__class__text">10. 14 (월) 10:00 - 18:00</div>
+            <div class="workshop__class__content__title">모집인원</div>
+            <div class="workshop__class__text">20 - 24명</div>
             <div class="workshop__link__section">
                 <a href="https://festa.io/events/426">워크숍 신청하기</a>
             </div>
         </div>
         <div class="workshop__class">
             <div class="workshop__class__title">Collaborative Agile Planning</div>
-            <div class="workshop__class__text">일시 : 10.15 화 13:00 ~ 16:00</div>
-            <div class="workshop__class__text">참가비 : 180,000원(컨퍼런스 포함)</div>
-            <div class="workshop__class__text">모집인원 : 25 ~ 32명</div>
+            <div class="workshop__class__content__title">일시</div>
+            <div class="workshop__class__text">10. 15 (화) 13:00 - 16:00</div>
+            <div class="workshop__class__content__title">모집인원</div>
+            <div class="workshop__class__text">25 - 32명</div>
             <div class="workshop__link__section">
                 <a href="https://festa.io/events/426">워크숍 신청하기</a>
             </div>
         </div>
         <div class="workshop__class">
             <div class="workshop__class__title">Leading SAFe</div>
-            <div class="workshop__class__text">일시 : 10.16,17 수,목 09:00 ~ 17:00</div>
-            <div class="workshop__class__text">참가비 : 1,500,000원(컨퍼런스 포함)</div>
-            <div class="workshop__class__text">모집인원 : 12 ~ 30명</div>
+            <div class="workshop__class__content__title">일시</div>
+            <div class="workshop__class__text">10.16 (수), 17(목) 09:00 - 17:00</div>
+            <div class="workshop__class__content__title">모집인원</div>
+            <div class="workshop__class__text">12 - 30명</div>
             <div class="workshop__link__section">
                 <a href="https://festa.io/events/426festa">워크숍 신청하기</a>
             </div>
