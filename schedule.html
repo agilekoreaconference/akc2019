@@ -417,6 +417,13 @@
         color: #000000;
         margin-top: 4px;
       }
+      .schedule__detail__name2 {
+        opacity: 0.5;
+        font-size: 14px;
+        letter-spacing: -0.3px;
+        color: #000000;
+        margin-top: 8px;
+      }
       .schedule__detail__location {
         display: flex;
         align-items: center;
@@ -428,7 +435,7 @@
       }
 
       .schedule__detail__image {
-        margin: 0px 6px;
+        margin: 0px 6px 0px 0px;
       }
 
       .schedule__detail__more {
@@ -1000,7 +1007,7 @@
             <div class="schedule__detail">
               <div class="schedule__detail__title">{{title}}</div>
               <div class="schedule__detail__name">
-                {{#name}} {{name}} / {{company}} {{/name}}
+                {{#name}} {{name}} {{#company}}/ {{company}}{{/company}} {{/name}}
               </div>
               <div class="schedule__detail__location"
                    [class]="'schedule__detail__location {{color}}'">
@@ -1009,6 +1016,9 @@
                          width="16" height="16" layout="fixed">
                 </amp-img>
                 {{location}}
+              </div>
+              <div class="schedule__detail__name2">
+              {{description2}}
               </div>
               <!--mustache conditional support only single line-->
               {{#note}}
@@ -1025,6 +1035,7 @@
                           time:'{{time}}',
                           location: '{{location}}',
                           descriptionIcon: '{{descriptionIcon}}',
+                          description2: '{{description2}}',
                           title:'{{title}}',
                           note:'{{note}}',
                           color:'{{color}}'
@@ -1079,6 +1090,7 @@
                      src="images/location_default.svg" [src]="'img/' + selectedSpeaker.descriptionIcon"></amp-img>
             <div [text]="selectedSpeaker.location">location</div>
           </div>
+          <div class="schedule__detail__name2" [text]="selectedSpeaker.description2">description2</div>
         </div>
         <pre class="speaker__ligthbox__note"
              [text]="selectedSpeaker.note">note
