@@ -660,7 +660,7 @@
             grid-template-columns: 80px 1fr 40px;
             width: inherit;
             height: 80px;
-            margin-bottom: 20px;
+            margin-bottom: 12px;
         }
 
         .speaker__ligthbox__profile {
@@ -675,7 +675,7 @@
 
         .speaker__ligthbox__middle {
             width: inherit;
-            margin: 20px 6px;
+            margin: 10px 6px;
         }
 
         .speaker__ligthbox__middle__title {
@@ -711,10 +711,24 @@
             margin-right: 20px;
         }
 
+        .speaker__detail__description {
+          height: 20px;
+          font-size: 14px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: -0.3px;
+          color: var(--dark);
+          margin-top: 5px;
+          margin-bottom: 2px;
+        }
+
         .speaker__ligthbox__note {
             border-top: 1px solid #dee2e6;
             padding-top: 20px;
             opacity: 0.8;
+            font-family: "Spoqa Han Sans", sans-serif;
             font-size: 16px;
             color: var(--dark);
             height: auto;
@@ -1294,6 +1308,9 @@
                             track:'{{track}}',
                             time:'{{time}}',
                             location: '{{location}}',
+                            locationColor: '{{locationColor}}',
+                            descriptionIcon: '{{descriptionIcon}}',
+                            description2: '{{description2}}',
                             title:'{{title}}',
                             note:'{{note}}',
                             color: '{{color}}'
@@ -1331,7 +1348,6 @@
                 [alt]="name"
                 src="images/empty_profile.png"
                 [src]="selectedSpeaker.sImg"></amp-img>
-            <div></div>
             <amp-img class="speaker__ligthbox__close"
                 width="30"
                 height="30"
@@ -1358,9 +1374,11 @@
                 <amp-img width="16" height="16" layout="fixed"
                     src="images/time.svg"></amp-img>
                 <div [text]="selectedSpeaker.time">00:00~00:00</div>
-                <amp-img width="16" height="16" layout="fixed" src="images/location_default.svg"></amp-img>
-                <div [text]="selectedSpeaker.location">location</div>
+                <amp-img width="16" height="16" layout="fixed"
+                    src="images/location_default.svg" [src]="'img/' + selectedSpeaker.descriptionIcon"></amp-img>
+                <div class="" [class]="selectedSpeaker.locationColor" [text]="selectedSpeaker.location">location</div>
             </div>
+            <!-- <div class="speaker__detail__description" [text]="selectedSpeaker.description2">description2</div> -->
         </div>
         <pre class="speaker__ligthbox__note"
             [text]="selectedSpeaker.note">note

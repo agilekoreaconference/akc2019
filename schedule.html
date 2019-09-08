@@ -418,7 +418,7 @@
         margin-top: 4px;
       }
       .schedule__detail__name2 {
-        height: 20px;
+        height: 40px;
         font-size: 14px;
         font-weight: normal;
         font-style: normal;
@@ -449,21 +449,23 @@
         width: 100%;
         height: 100%;
       }
+
       amp-selector {
         justify-content: center;
         text-align: center;
         outline: none;
         margin-top: 10px;
+        overflow: auto;
       }
       .schedule__selector__agile, .schedule__selector__culture, .schedule__selector__human, .schedule__selector__casestudy, .schedule__selector__handson {
         display: inline-block;
-        width: 20%;
+        width: 184px;
         height: 93px;
         max-width: 220px;
         font-size: 14px;
         color: black;
         letter-spacing: -0.3px;
-        padding: 13px 16px;
+        padding: 10px 11px;
         border: 1px solid #dee2e6;
         margin-left: 2px;
         margin-right: 2px;
@@ -475,8 +477,8 @@
         text-align: left;
       }
       .schedule__selector__subject {
-        min-width: 60;
-        font-size: 10px;
+        min-width: 50;
+        font-size: 8px;
         font-weight: bold;
         line-height: 1.5;
         margin-top: 2px;
@@ -490,11 +492,39 @@
         }
 
         .schedule__selector__subject {
+          min-width: 60;
           font-size: 16px;
           font-weight: bold;
           line-height: 1.5;
           margin-top: 2px;
           text-align: left;
+        }
+
+        .schedule__detail__name2 {
+          height: 20px;
+          font-size: 14px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: -0.3px;
+          color: var(--dark);
+          margin-top: 5px;
+          margin-bottom: 2px;
+        }
+
+        .schedule__selector__agile, .schedule__selector__culture, .schedule__selector__human, .schedule__selector__casestudy, .schedule__selector__handson {
+          display: inline-block;
+          width: 184px;
+          height: 93px;
+          max-width: 220px;
+          font-size: 14px;
+          color: black;
+          letter-spacing: -0.3px;
+          padding: 12px 13px;
+          border: 1px solid #dee2e6;
+          margin-left: 2px;
+          margin-right: 2px;
         }
       }
 
@@ -567,7 +597,7 @@
     }
     .speaker__ligthbox__middle {
       width: inherit;
-      margin: 20px 6px;
+      margin: 20px 6px 14px 6px;
     }
     .speaker__ligthbox__middle__title {
       font-size: 20px;
@@ -609,6 +639,58 @@
       overflow: scroll;
       max-height: 282px;
       white-space: pre-wrap;
+    }
+
+    .link__section {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      margin-bottom: 50px;
+      position: relative;
+    }
+
+    .link__section > a {
+      width: 304px;
+      height: 24px;
+      font-size: 20px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+      background-color: var(--sapphire);
+      text-decoration: none;
+      text-align: center;
+      padding: 20px 0px;
+    }
+
+    @media (min-width: 1024px) {
+      .link__section {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 100px;
+        position: relative;
+      }
+
+      .link__section > a {
+        width: 304px;
+        height: 24px;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        background-color: var(--sapphire);
+        text-decoration: none;
+        text-align: center;
+        padding: 20px 0px;
+      }
     }
 
       .article {
@@ -728,6 +810,10 @@
 
       .atlassian, .casestudy, .handson {
         color: #0050d4;
+      }
+
+      .note {
+        color: #f1780a;
       }
     </style>
   </head>
@@ -989,19 +1075,19 @@
         <div class="schedule__selector__casestudy"
              option="casestudy">
           <div class="schedule__selector__track">Track4</div>
-          <div class="schedule__selector__subject">Case Study</div>
+          <div class="schedule__selector__subject">Atlassian <br/>- Case Study</div>
         </div>
         <div class="schedule__selector__handson"
              option="handson">
           <div class="schedule__selector__track">Track5</div>
-          <div class="schedule__selector__subject">Hands On</div>
+          <div class="schedule__selector__subject">Atlassian <br/>- Hands On</div>
         </div>
       </amp-selector>
   
       <!--PM Session-->
       <amp-list
               width="auto"
-              height="800"
+              height="600"
               layout="fixed-height"
               [src]="trackInfo[track.selected]"
               src="data/schedule_default.json">
@@ -1015,9 +1101,9 @@
             <div class="schedule__detail">
               <div class="schedule__detail__title">{{title}}</div>
               {{#description2}}
-              <div class="schedule__detail__name2">{{description2}}</div>
+              <div class="schedule__detail__name2" [class]="'schedule__detail__name2 {{description2Color}}'">{{description2}}</div>
               {{/description2}}
-              <div class="schedule__detail__name">
+              <div class="schedule__detail__name" [class]="'schedule__detail__name {{nameColor}}'">
                 {{#name}} {{name}} {{#company}}/ {{company}}{{/company}} {{/name}}
               </div>
               <div class="schedule__detail__location"
@@ -1099,13 +1185,18 @@
                      src="images/location_default.svg" [src]="'img/' + selectedSpeaker.descriptionIcon"></amp-img>
             <div class="" [class]="selectedSpeaker.locationColor" [text]="selectedSpeaker.location">location</div>
           </div>
-          <div class="schedule__detail__name2" [text]="selectedSpeaker.description2">description2</div>
+          <!-- <div class="schedule__detail__name2" [text]="selectedSpeaker.description2">description2</div> -->
         </div>
         <pre class="speaker__ligthbox__note"
              [text]="selectedSpeaker.note">note
         </pre>
       </div>
     </amp-lightbox>
+
+    <div class="link__section">
+      <a href="https://festa.io/events/426" target="_blank">등록하기</a>
+    </div>
+
     <footer>
       <div class="footer__link">
         <a href="mailto:agilekoreaconference@gmail.com" target="_blank">
