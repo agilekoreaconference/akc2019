@@ -16,13 +16,13 @@
       "descriptionIcon": "",
       "color": "agile",
       "tableBorder": "schedule__table__row_border",
-      "note": "도발편\n1. 도저히 함께 할 수 없을 것만 같은 프로젝트 부적응자들 \n2. 칸반, 스프린트 다 부질 없다.\n3. Whole Team 씨나락 까먹는 소리하고 앉아있다 \n4. 점진적인 개선보다 중요한  SOTA \n5. UX는 어떻게 측정하나요\n진정편\n1. 연구자들과 친해지기 \n2. 스크럼반으로 대강 시작부터 하자 \n3. 잘난 사람은 잘난대로 살고.\n4. SOTA 로 얻을 수 있는 프로젝트의 이득 \n5. UX를 측정하는 법. 제품으로 설득해야 하고 사용자의 피드백은 연구자도 좋아한다.\n결론\nA.I. 프로젝트에 애자일을 훌륭하게 적용하는 방법 \nB.P.로 부터 듣는다.\n"
+      "note": "[도발편]\n1. 도저히 함께 할 수 없을 것만 같은 프로젝트 부적응자들 \n2. 칸반, 스프린트 다 부질 없다.\n3. Whole Team 씨나락 까먹는 소리하고 앉아있다 \n4. 점진적인 개선보다 중요한  SOTA \n5. UX는 어떻게 측정하나요\n\n[진정편]\n1. 연구자들과 친해지기 \n2. 스크럼반으로 대강 시작부터 하자 \n3. 잘난 사람은 잘난대로 살고.\n4. SOTA 로 얻을 수 있는 프로젝트의 이득 \n5. UX를 측정하는 법. 제품으로 설득해야 하고 사용자의 피드백은 연구자도 좋아한다.\n\n[결론]\nA.I. 프로젝트에 애자일을 훌륭하게 적용하는 방법 \nB.P.로 부터 듣는다.\n"
     },
     {
       "start": "14 : 00",
       "middle": "-",
       "end": "14 : 50",
-      "title": "Large Enterprise Agile Transformation - Ciscos Journey",
+      "title": "Large Enterprise Agile Transformation - Cisco s Journey",
       "name": "Pete Rim",
       "company": "Cisco Systems",
       "img": "/img/speaker/img-key-01.png",
@@ -34,7 +34,7 @@
       "descriptionIcon": "shc-trans.svg",
       "color": "agile",
       "tableBorder": "schedule__table__row_border",
-      "note": "The audience will walk away with the following realization after participating in the Ciscos Agile Journey discussion:\n\n- Simple roadmap on all the cross functional items to account for a multinational corporate agile transformation\n- An example of enterprise organizational setup to kick-start the journey\n- A list of items In-scope for corporate agile transformation – tools, process, and people\n- Real examples of \"pains\" experienced in the journey over the last 3 years\n- Realistic expectation on Agile Industry support and resources, or lack thereof, for a large scale transformation\n- \"Art of what’s possible\" in large corporate agile transformation, not just \"doing\" agile but “being” agile\n\nCisco is changing the way Cisco does business through Continuous Delivery and Scaled Scrum. We would like to share how we have moved a $49B enterprise of 25,000 engineers across the globe from 100% waterfall based delivery to scrum delivery in a massive scale.\n\nToday, a strong partnership with the business and increased collaboration is driving delivery of new business outcomes faster. However, our journey started over 5 years back and was a gradual, and still on-going, evolution of mobilizing the agile transformation, strategically and tactically. We started with a strong executive leadership’s desire on the recognition of inevitable need for a change in the way we enabled business capabilities, from waterfall based 6 to 9 months delivery cycles to agile based weekly and monthly delivery capabilities. We experienced our share of challenges in just getting started to organically creating the critical core of passionate agile leaders throughout the enterprise.\n\nLet us share how we organized, created the momentum, and overcame various challenges along the way, from getting beyond the long standing cultural resistance to a practical matter of scaling scrum from ground zero, from planning to executing, across the enterprise.\n\n"
+      "note": "The audience will walk away with the following realization after participating in the Cisco s Agile Journey discussion:\n\n- Simple roadmap on all the cross functional items to account for a multinational corporate agile transformation\n- An example of enterprise organizational setup to kick-start the journey\n- A list of items In-scope for corporate agile transformation – tools, process, and people\n- Real examples of \"pains\" experienced in the journey over the last 3 years\n- Realistic expectation on Agile Industry support and resources, or lack thereof, for a large scale transformation\n- \"Art of what’s possible\" in large corporate agile transformation, not just \"doing\" agile but “being” agile\n\nCisco is changing the way Cisco does business through Continuous Delivery and Scaled Scrum. We would like to share how we have moved a $49B enterprise of 25,000 engineers across the globe from 100% waterfall based delivery to scrum delivery in a massive scale.\n\nToday, a strong partnership with the business and increased collaboration is driving delivery of new business outcomes faster. However, our journey started over 5 years back and was a gradual, and still on-going, evolution of mobilizing the agile transformation, strategically and tactically. We started with a strong executive leadership’s desire on the recognition of inevitable need for a change in the way we enabled business capabilities, from waterfall based 6 to 9 months delivery cycles to agile based weekly and monthly delivery capabilities. We experienced our share of challenges in just getting started to organically creating the critical core of passionate agile leaders throughout the enterprise.\n\nLet us share how we organized, created the momentum, and overcame various challenges along the way, from getting beyond the long standing cultural resistance to a practical matter of scaling scrum from ground zero, from planning to executing, across the enterprise.\n\n"
     },
     {
       "start": "15 : 00",
@@ -51,7 +51,7 @@
       "descriptionIcon": "",
       "color": "agile",
       "tableBorder": "schedule__table__row_border",
-      "note": "SI에서 Agile은 무엇보다 고객사/협력사를 포함한 다양한 이해관계자들을 변화시키고 설득시켜야 합니다.\n제대로된 PO역할 수행을 위한 고객사 설득하기, 감리사와 밀당하기, Scrum Master는 누가?, 내부직원 육성하기 등 SI에서 Agile을 성공시키기 위한 다양한 노하우를 공개합니다."
+      "note": "SI에서 Agile은 무엇보다 고객사/협력사를 포함한 다양한 이해관계자들을 변화시키고 설득시켜야 합니다.\n\nSI에서 Agile을 성공시키기 위한 다양한 노하우를 공개합니다.\n- 제대로된 PO역할 수행을 위한 고객사 설득하기\n- 감리사와 밀당하기\n- Scrum Master는 누가?\n- 내부직원 육성하기\n"
     },
     {
       "start": "16 : 00",
@@ -68,7 +68,7 @@
       "descriptionIcon": "",
       "color": "agile",
       "tableBorder": "schedule__table__row_border",
-      "note": "* 개요: 보수적인 보험금융권에서 혁신적인 방식으로 Agile Transformation에 성공한 오렌지라이프의 여정을 소개합니다. 조직문화로서 Agile을 사례 위주로 설명하며 경험을 통해 얻은 Agile 도입의 고려사항도 공유합니다.\n\n* 목차\n- 오렌지라이프의 Agile 도입 배경 및 핵심철학\n- 오렌지라이프에 적용된 Agile 모델 및 업무방식 상세\n- Agile Transformation 이후 조직내 주요 변화사항\n- 사례중심의 Agile 도입 고려사항\n- Q&A\n"
+      "note": "[개요]\n보수적인 보험금융권에서 혁신적인 방식으로 Agile Transformation에 성공한 오렌지라이프의 여정을 소개합니다. 조직문화로서 Agile을 사례 위주로 설명하며 경험을 통해 얻은 Agile 도입의 고려사항도 공유합니다.\n\n[목차]\n- 오렌지라이프의 Agile 도입 배경 및 핵심철학\n- 오렌지라이프에 적용된 Agile 모델 및 업무방식 상세\n- Agile Transformation 이후 조직내 주요 변화사항\n- 사례중심의 Agile 도입 고려사항\n- Q&A\n"
     },
     {
       "start": "17 : 00",
@@ -98,7 +98,7 @@
       "descriptionIcon": "",
       "color": "culture",
       "tableBorder": "schedule__table__row_border",
-      "note": "삼성전자는 소규모 애자일팀을 위한 노력을 해왔으며, 이제는 대규모 애자일 조직으로 변화를 위한 첫 번째 노력을 시작하였습니다. 애자일 조직으로 변화를 위한 여정을 소개하며, 그 과정에서 코치로서 겪은 어려움, 맛 본 보람 그리고 조직의 변화에 대한 이야기를 나누고자 합니다.\n\n- 변화 에이전트 : 애자일코치의 새로운 이름과 역할\n- 애자일팀에서 애자일조직으로 : 애자일팀의 한계와 애자일 조직의 필요성\n- 애자일 조직으로 변화 노력 : 조직 진단, 조직 설계, 조직 시스템 설계 및 운영 사례\n- 회고 : 애자일 조직 적용 회고"
+      "note": "삼성전자는 소규모 애자일팀을 위한 노력을 해왔으며, 이제는 대규모 애자일 조직으로 변화를 위한 첫 번째 노력을 시작하였습니다. 애자일 조직으로 변화를 위한 여정을 소개하며, 그 과정에서 코치로서 겪은 어려움, 맛 본 보람 그리고 조직의 변화에 대한 이야기를 나누고자 합니다.\n\n- 변화 에이전트\n  애자일코치의 새로운 이름과 역할\n- 애자일팀에서 애자일조직으로\n  애자일팀의 한계와 애자일 조직의 필요성\n- 애자일 조직으로 변화 노력\n  조직 진단, 조직 설계, 조직 시스템 설계 및 운영 사례\n- 회고\n  애자일 조직 적용 회고\n"
     },
     {
       "start": "14 : 00",
@@ -116,7 +116,7 @@
       "descriptionIcon": "",
       "color": "culture",
       "tableBorder": "schedule__table__row_border",
-      "note": "개발 기간이 몇년씩 되는 프로젝트, 강산이 변하는 시간에 가까운 프로젝트의 유지보수, 빠르게 변하는 고객의 눈높이와 시장의 변화 그리고 점점 더 높아지는 각 국가의 규제들 !!\n고객에게 가치있는 제품을 만들기 위해, 우리는 변화하고 있습니다.\n 전통적이고 보수적인 개발방법론을 주로 따르고, 안전함을 중심으로하는 의료기기 개발이 어떻게 시대의 변화에 도전하고 있는지 공유 합니다."
+      "note": "개발 기간이 몇년씩 되는 프로젝트,\n강산이 변하는 시간에 가까운 프로젝트의 유지보수, 빠르게 변하는 고객의 눈높이와 시장의 변화 그리고 점점 더 높아지는 각 국가의 규제들 !!\n\n고객에게 가치있는 제품을 만들기 위해, 우리는 변화하고 있습니다.\n전통적이고 보수적인 개발방법론을 주로 따르고,\n안전함을 중심으로하는 의료기기 개발이 어떻게 시대의 변화에 도전하고 있는지 공유 합니다.\n"
     },
     {
       "start": "15 : 00",
@@ -133,7 +133,7 @@
       "descriptionIcon": "",
       "color": "culture",
       "tableBorder": "schedule__table__row_border",
-      "note": "워 게임 워크숍은 전략적 민첩성을 높이는 프로그램입니다.\n기업의 Think.Build.Operate 의 벨류 체인 중 사업의 전략적 방향을 정하는 Think 영역에서 어떻게하면 유연하고 민첩한 전략을 도출하고 실행할지를 확인할 수 있습니다."
+      "note": "워 게임 워크숍은 전략적 민첩성을 높이는 프로그램입니다.\n\n기업의 Think.Build.Operate 의 벨류 체인 중 사업의 전략적 방향을 정하는 Think 영역에서 어떻게하면 유연하고 민첩한 전략을 도출하고 실행할지를 확인할 수 있습니다.\n"
     },
     {
       "start": "16 : 00",
@@ -151,7 +151,7 @@
       "descriptionIcon": "",
       "color": "culture",
       "tableBorder": "schedule__table__row_border",
-      "note": "Agile 적용 프로젝트 수행 경험 공유 및 프로젝트 수행 시 사용했던 주요 기법 소개.\n개발자의 입장에서 바라본 각 단계별 주요 Lessons & learned 공유를 통한 Agile 프로젝트 수행 시 고려 할점 소개 및 제안.\n\n 목차\n- 본인 소개 및 수행 프로젝트 소개\n- 프로젝트 시작과 종료까지 각 단계별 적용했던  Agile 기법들\n- 각 단계별 lessons & learned\n- 프로젝트 수행시 도움되는 Agile 기법 제안\n- Q&A"
+      "note": "Agile 적용 프로젝트 수행 경험 공유 및 프로젝트 수행 시 사용했던 주요 기법 소개.\n개발자의 입장에서 바라본 각 단계별 주요 Lessons & learned 공유를 통한 Agile 프로젝트 수행 시 고려 할점 소개 및 제안.\n\n[목차]\n- 본인 소개 및 수행 프로젝트 소개\n- 프로젝트 시작과 종료까지 각 단계별 적용했던  Agile 기법들\n- 각 단계별 lessons & learned\n- 프로젝트 수행시 도움되는 Agile 기법 제안\n- Q&A\n"
     },
     {
       "start": "17 : 00",
@@ -181,7 +181,7 @@
       "descriptionIcon": "",
       "color": "human",
       "tableBorder": "schedule__table__row_border",
-      "note": "Agile Korea Conference에서 소개하는 Design Thinking (입문자를 위한)\nDesign Thinking에 대한 이해를 바탕으로 역할과 의미를 함께 생각해보는 시간(을 가집니다)\n아! Design Thinking 은 이런 것이군요!"
+      "note": "Agile Korea Conference에서 소개하는 입문자를 위한  Design Thinking.\nDesign Thinking에 대한 이해를 바탕으로 역할과 의미를 함께 생각해보는 시간.\n\n아! Design Thinking 은 이런 것이군요!\n"
     },
     {
       "start": "14 : 00",
@@ -215,7 +215,7 @@
       "descriptionIcon": "",
       "color": "human",
       "tableBorder": "schedule__table__row_border",
-      "note": "애자일을 만나고 애자일 코치가 되고 성장하는 과정에서 시도한 것과 얻은 통찰의 관한 이야기를 한다.\n애자일 개발 방법론으로 접했던 것에서 애자일 도입을 시도하고, 애자일 코치가 되고, 애자일 코치 양성 과정을 수행했던 이야기, 그리고 조직 문화와 조직 변화에 대하여 관심을 갖고 도전하게 된 사연에 대하여 이야기를 한다.\n1) 애자일의 경험 - XP, Scrum\n2) 애자일 개발 방법론으로의 도입\n3) 애자일 코치로의 발돋움\n4) 애자일을 넘어서"
+      "note": "애자일을 만나고 애자일 코치가 되고 성장하는 과정에서 시도한 것과 얻은 통찰의 관한 이야기를 한다.\n애자일 개발 방법론으로 접했던 것에서 애자일 도입을 시도하고, 애자일 코치가 되고, 애자일 코치 양성 과정을 수행했던 이야기, 그리고 조직 문화와 조직 변화에 대하여 관심을 갖고 도전하게 된 사연에 대하여 이야기를 한다.\n\n1) 애자일의 경험 - XP, Scrum\n2) 애자일 개발 방법론으로의 도입\n3) 애자일 코치로의 발돋움\n4) 애자일을 넘어서\n"
     },
     {
       "start": "16 : 00",
@@ -232,7 +232,7 @@
       "descriptionIcon": "",
       "color": "human",
       "tableBorder": "schedule__table__row_border",
-      "note": "최근 Agile 만큼이나 OKR에 대한 관심이 뜨겁습니다. 구글의 성공을 통해 널리 알려진 성과 관리 방법론이기에, 이를 도입하려는 조직도 늘어나고 있습니다. 하지만 막상 OKR이 지향하는 철학과 가치가 무엇인지, 실제 도입 시 어떤 점을 염두해야 하는지는 많이 알려지지 않았습니다.\n이번 세션에서는 OKR이 품고 있는 철학과 Aglie과의 연관성, 그리고 도입 시 던져야 할 질문에 대해 함께 고민하고자 합니다. OKR과 Agile, 그리고 조직 문화에 관심있는 분들의 많은 관심 부탁드립니다."
+      "note": "최근 Agile 만큼이나 OKR에 대한 관심이 뜨겁습니다.\n구글의 성공을 통해 널리 알려진 성과 관리 방법론이기에, 이를 도입하려는 조직도 늘어나고 있습니다.\n하지만 막상 OKR이 지향하는 철학과 가치가 무엇인지, 실제 도입 시 어떤 점을 염두해야 하는지는 많이 알려지지 않았습니다.\n\n이번 세션에서는 OKR이 품고 있는 철학과 Aglie과의 연관성,\n그리고 도입 시 던져야 할 질문에 대해 함께 고민하고자 합니다.\nOKR과 Agile, 그리고 조직 문화에 관심있는 분들의 많은 관심 부탁드립니다.\n"
     },
     {
       "start": "17 : 00",
@@ -249,7 +249,7 @@
       "descriptionIcon": "",
       "color": "human",
       "tableBorder": "schedule__table__row_border",
-      "note": "민첩하고 지속가능한 조직 개발 이론 sociocracy, 애자일과 비슷한 철학, 그러나 완결적인 조직개발 이론이라는 면에서 애자일과 다른 sociocracy 그리고 소시오크라시와 애자일에 날개를 달아줄 퍼실리테이션, 세 가지 개념의 관계를 통찰함.\n\n목차:\n- “socio + cracy” vs “demo + cracy”\n- Sociocracy, 협업의 DNA\n- 자율경영의 7가지 톱니바퀴"
+      "note": "민첩하고 지속가능한 조직 개발 이론 소시오크라시!\n소시오크라시는 애자일과 비슷한 철학을 가지고 있지만 완결적인 조직개발 이론이라는 면에서 애자일과 다릅니다.\n그리고 소시오크라시와 애자일에 날개를 달아줄 퍼실리테이션!\n세 가지 개념의 관계를 통찰합니다.\n\n[목차]\n- “socio + cracy” vs “demo + cracy”\n- 소시오크라시, 협업의 DNA\n- 자율경영의 7가지 톱니바퀴\n- 퍼실리테이션이라는 윤활유는 어떻게 결합되는가?\n"
     }
   ],
   "casestudy": [
@@ -302,7 +302,7 @@
       "descriptionIcon": "",
       "color": "casestudy",
       "tableBorder": "schedule__table__row_border",
-      "note": "주 52시간 시대에 애자일스럽게 일한다는 것은 무엇인지, 아틀라시안이 바라보는 애자일한 일하기에 대해 공유합니다."
+      "note": "주 52시간 시대에 애자일스럽게 일한다는 것은 무엇인지, 아틀라시안이 바라보는 애자일한 일하기에 대해 공유합니다.\n"
     },
     {
       "start": "16 : 00",
@@ -356,7 +356,7 @@
       "descriptionIcon": "shc-hands.svg",
       "description2": "대상제품 : Jira Service Desk, Jira Software, Bitbucket",
       "color": "handson",
-      "note": "1. Jira Service Desk Cloud 를 이용한 ticket 처리\n2. Jira Cloud 를 이용한 이슈 처리\n3. Bitbucket cloud을 이용한 소스코드 관리\n4. Bitbucket Pipeline을 이용한 배포\n삼성전자는 소규모 애자일팀을 위한 노력을 해왔으며, 이제는 대규모 애자일 조직으로 변화를 위한 첫 번째 노력을 시작하였습니다. 애자일 조직으로 변화를 위한 여정을 소개하며, 그 과정에서 코치로서 겪은 어려움, 맛 본 보람 그리고 조직의 변화에 대한 이야기를 나누고자 합니다.\n\n- 변화 에이전트 : 애자일코치의 새로운 이름과 역할\n- 애자일팀에서 애자일조직으로 : 애자일팀의 한계와 애자일 조직의 필요성\n- 애자일 조직으로 변화 노력 : 조직 진단, 조직 설계, 조직 시스템 설계 및 운영 사례\n- 회고 : 애자일 조직 적용 회고"
+      "note": "1. Jira Service Desk Cloud 를 이용한 ticket 처리\n2. Jira Cloud 를 이용한 이슈 처리\n3. Bitbucket cloud을 이용한 소스코드 관리\n4. Bitbucket Pipeline을 이용한 배포\n삼성전자는 소규모 애자일팀을 위한 노력을 해왔으며, 이제는 대규모 애자일 조직으로 변화를 위한 첫 번째 노력을 시작하였습니다. 애자일 조직으로 변화를 위한 여정을 소개하며, 그 과정에서 코치로서 겪은 어려움, 맛 본 보람 그리고 조직의 변화에 대한 이야기를 나누고자 합니다.\n\n- 변화 에이전트 : 애자일코치의 새로운 이름과 역할\n- 애자일팀에서 애자일조직으로 : 애자일팀의 한계와 애자일 조직의 필요성\n- 애자일 조직으로 변화 노력 : 조직 진단, 조직 설계, 조직 시스템 설계 및 운영 사례\n- 회고 : 애자일 조직 적용 회고\n"
     },
     {
       "start": "",
@@ -392,7 +392,7 @@
       "descriptionIcon": "shc-hands.svg",
       "description2": "대상제품 : Jira Software, Structure add-on",
       "color": "handson",
-      "note": "가장 대표적인 애자일 툴인 지라에서도 워터폴 방식 프로젝트도 함께 운영해야 할 때가 있죠. 지라를 사용하면서 워터폴 방식도 잘 표현할 수 있는 방법을 Jira와 Structure add-on을 활용하여 구현해보는 시간입니다."
+      "note": "가장 대표적인 애자일 툴인 지라에서도 워터폴 방식 프로젝트도 함께 운영해야 할 때가 있죠. 지라를 사용하면서 워터폴 방식도 잘 표현할 수 있는 방법을 Jira와 Structure add-on을 활용하여 구현해보는 시간입니다.\n"
     },
     {
       "start": "",

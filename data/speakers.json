@@ -25,8 +25,8 @@
       "locationColor": "agile",
       "descriptionIcon": "shc-trans.svg",
       "color": "agile",
-      "title": "Large Enterprise Agile Transformation - Ciscos Journey",
-      "note": "The audience will walk away with the following realization after participating in the Ciscos Agile Journey discussion:\n\n- Simple roadmap on all the cross functional items to account for a multinational corporate agile transformation\n- An example of enterprise organizational setup to kick-start the journey\n- A list of items In-scope for corporate agile transformation – tools, process, and people\n- Real examples of \"pains\" experienced in the journey over the last 3 years\n- Realistic expectation on Agile Industry support and resources, or lack thereof, for a large scale transformation\n- \"Art of what’s possible\" in large corporate agile transformation, not just \"doing\" agile but “being” agile\n\nCisco is changing the way Cisco does business through Continuous Delivery and Scaled Scrum. We would like to share how we have moved a $49B enterprise of 25,000 engineers across the globe from 100% waterfall based delivery to scrum delivery in a massive scale.\n\nToday, a strong partnership with the business and increased collaboration is driving delivery of new business outcomes faster. However, our journey started over 5 years back and was a gradual, and still on-going, evolution of mobilizing the agile transformation, strategically and tactically. We started with a strong executive leadership’s desire on the recognition of inevitable need for a change in the way we enabled business capabilities, from waterfall based 6 to 9 months delivery cycles to agile based weekly and monthly delivery capabilities. We experienced our share of challenges in just getting started to organically creating the critical core of passionate agile leaders throughout the enterprise.\n\nLet us share how we organized, created the momentum, and overcame various challenges along the way, from getting beyond the long standing cultural resistance to a practical matter of scaling scrum from ground zero, from planning to executing, across the enterprise.\n\n"
+      "title": "Large Enterprise Agile Transformation - Cisco's Journey",
+      "note": "The audience will walk away with the following realization after participating in the Cisco s Agile Journey discussion:\n\n- Simple roadmap on all the cross functional items to account for a multinational corporate agile transformation\n- An example of enterprise organizational setup to kick-start the journey\n- A list of items In-scope for corporate agile transformation – tools, process, and people\n- Real examples of \"pains\" experienced in the journey over the last 3 years\n- Realistic expectation on Agile Industry support and resources, or lack thereof, for a large scale transformation\n- \"Art of what’s possible\" in large corporate agile transformation, not just \"doing\" agile but “being” agile\n\nCisco is changing the way Cisco does business through Continuous Delivery and Scaled Scrum. We would like to share how we have moved a $49B enterprise of 25,000 engineers across the globe from 100% waterfall based delivery to scrum delivery in a massive scale.\n\nToday, a strong partnership with the business and increased collaboration is driving delivery of new business outcomes faster. However, our journey started over 5 years back and was a gradual, and still on-going, evolution of mobilizing the agile transformation, strategically and tactically. We started with a strong executive leadership’s desire on the recognition of inevitable need for a change in the way we enabled business capabilities, from waterfall based 6 to 9 months delivery cycles to agile based weekly and monthly delivery capabilities. We experienced our share of challenges in just getting started to organically creating the critical core of passionate agile leaders throughout the enterprise.\n\nLet us share how we organized, created the momentum, and overcame various challenges along the way, from getting beyond the long standing cultural resistance to a practical matter of scaling scrum from ground zero, from planning to executing, across the enterprise.\n\n"
     },
     {
       "name": "심상준",
@@ -38,7 +38,7 @@
       "location": "",
       "color": "agile",
       "title": "Agile 배워서 남줄Lab (부제:SI에서 Agile로 살아남기)",
-      "note": "SI에서 Agile은 무엇보다 고객사/협력사를 포함한 다양한 이해관계자들을 변화시키고 설득시켜야 합니다.\n\n제대로된 PO역할 수행을 위한 고객사 설득하기, 감리사와 밀당하기, Scrum Master는 누가?, 내부직원 육성하기 등 SI에서 Agile을 성공시키기 위한 다양한 노하우를 공개합니다."
+      "note": "SI에서 Agile은 무엇보다 고객사/협력사를 포함한 다양한 이해관계자들을 변화시키고 설득시켜야 합니다.\n\nSI에서 Agile을 성공시키기 위한 다양한 노하우를 공개합니다.\n- 제대로된 PO역할 수행을 위한 고객사 설득하기\n- 감리사와 밀당하기\n- Scrum Master는 누가?\n- 내부직원 육성하기\n"
     },
     {
       "name": "도경태",
@@ -52,7 +52,7 @@
       "descriptionIcon": "",
       "color": "agile",
       "title": "AI 프로젝트에 Agile을 도입했더니 나만 찌질거리는 것 처럼 느껴졌던 5가지 이유",
-      "note": "도발편\n1. 도저히 함께 할 수 없을 것만 같은 프로젝트 부적응자들\n2. 칸반, 스프린트 다 부질 없다.\n3. Whole Team 씨나락 까먹는 소리하고 앉아있다\n4. 점진적인 개선보다 중요한  SOTA\n5. UX는 어떻게 측정하나요\n\n진정편\n1. 연구자들과 친해지기\n2. 스크럼반으로 대강 시작부터 하자\n3. 잘난 사람은 잘난대로 살고.\n4. SOTA 로 얻을 수 있는 프로젝트의 이득\n5. UX를 측정하는 법. 제품으로 설득해야 하고 사용자의 피드백은 연구자도 좋아한다.\n\n결론\nA.I. 프로젝트에 애자일을 훌륭하게 적용하는 방법\nB.P.로 부터 듣는다.\n"
+      "note": "[도발편]\n1. 도저히 함께 할 수 없을 것만 같은 프로젝트 부적응자들 \n2. 칸반, 스프린트 다 부질 없다.\n3. Whole Team 씨나락 까먹는 소리하고 앉아있다 \n4. 점진적인 개선보다 중요한  SOTA \n5. UX는 어떻게 측정하나요\n\n[진정편]\n1. 연구자들과 친해지기 \n2. 스크럼반으로 대강 시작부터 하자 \n3. 잘난 사람은 잘난대로 살고.\n4. SOTA 로 얻을 수 있는 프로젝트의 이득 \n5. UX를 측정하는 법. 제품으로 설득해야 하고 사용자의 피드백은 연구자도 좋아한다.\n\n[결론]\nA.I. 프로젝트에 애자일을 훌륭하게 적용하는 방법 \nB.P.로 부터 듣는다.\n"
     },
     {
       "name": "김영진",
@@ -64,7 +64,7 @@
       "location": "",
       "color": "culture",
       "title": "삼성전자, 애자일조직으로 변화를 위한 첫 번째 노력",
-      "note": "삼성전자는 소규모 애자일팀을 위한 노력을 해왔으며, 이제는 대규모 애자일 조직으로 변화를 위한 첫 번째 노력을 시작하였습니다. 애자일 조직으로 변화를 위한 여정을 소개하며, 그 과정에서 코치로서 겪은 어려움, 맛 본 보람 그리고 조직의 변화에 대한 이야기를 나누고자 합니다.\n\n- 변화 에이전트 : 애자일코치의 새로운 이름과 역할\n- 애자일팀에서 애자일조직으로 : 애자일팀의 한계와 애자일 조직의 필요성\n- 애자일 조직으로 변화 노력 : 조직 진단, 조직 설계, 조직 시스템 설계 및 운영 사례\n- 회고 : 애자일 조직 적용 회고"
+      "note": "삼성전자는 소규모 애자일팀을 위한 노력을 해왔으며, 이제는 대규모 애자일 조직으로 변화를 위한 첫 번째 노력을 시작하였습니다. 애자일 조직으로 변화를 위한 여정을 소개하며, 그 과정에서 코치로서 겪은 어려움, 맛 본 보람 그리고 조직의 변화에 대한 이야기를 나누고자 합니다.\n\n- 변화 에이전트\n  애자일코치의 새로운 이름과 역할\n- 애자일팀에서 애자일조직으로\n  애자일팀의 한계와 애자일 조직의 필요성\n- 애자일 조직으로 변화 노력\n  조직 진단, 조직 설계, 조직 시스템 설계 및 운영 사례\n- 회고\n  애자일 조직 적용 회고\n"
     },
     {
       "name": "박진희",
